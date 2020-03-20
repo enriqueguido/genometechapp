@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. Home Page
+
+******************************/
+
+
+
+/*****************************
+1. Home Page
+******************************/
+
+.logo-genome
+{
+    height: 70px;
+    margin-top: -4px;
+    margin-right: -30px;
+}
+
+.logo-name-sectn 
+{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 0.75;
+    color: #353535;
+    padding-top: 10px;
+}
+
+[data-dark-overlay="6"]:after {
+    opacity: 0.6;
+}
+
+[data-dark-overlay]:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #4f4f50;
+  /* z-index: -1 */
+}
+
+.button-white
+{
+	background: transparent !important;
+	border: solid 2px #ffffff !important;
+}
+.button-white a
+{
+	color: #ffffff !important;
+}
+.button-white:hover
+{
+	background: #ffffff !important;
+}
+.button-white:hover a
+{
+	color: #fe7602 !important;
+}
+
+.main-prgraph 
+{
+    color: #000000 !important;
+}
+
+/* .insta-color:hover 
+{
+    background: #dd2a7c !important;
+}
+
+.face-color:hover 
+{
+    background: #3b5998 !important;
+}
+
+.twit-color:hover 
+{
+    background: #56acee !important;
+} */
+
+

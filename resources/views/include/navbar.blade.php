@@ -1,11 +1,25 @@
+{{--  --}}
+
 <header class="header trans_400">
     <div class="header_content d-flex flex-row align-items-center jusity-content-start trans_400">
 
         <!-- Logo -->
+        <a href="{{ url('/') }}">
+            <img class="logo-genome" src="images/logo.svg" alt="Genome Technologies Logo">
+        </a>
         <div class="logo">
             <a href="#">
-                <div>Genome<span>Tech</span></div>
+                <div>
+                    Genome
+                        {{-- <span> --}}
+                            {{-- Technologies --}}
+                        {{-- </span> --}}
+                </div>
+                <div class="logo-name-sectn">
+                    Technologies
+                </div>
                 <div>Personalized Medicine</div>
+                {{-- <img src="images/logo.svg" alt="Genome Technologies Logo"> --}}
             </a>
         </div>
 
@@ -28,14 +42,14 @@
             <div class="header_phone">+34 586 778 8892</div>
 
             <!-- Appointment Button -->
-            <div class="button button_1 header_button"><a href="#">Make an Appointment</a></div>
+            <div class="button button_1 header_button"><a href="#">Call Us</a></div>
 
             <!-- Header Social -->
             <div class="social header_social">
                 <ul class="d-flex flex-row align-items-center justify-content-start">
-                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa insta-color fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa face-color fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa twit-color fa-twitter" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
 
@@ -66,9 +80,9 @@
     </div>
     <div class="social menu_social">
         <ul class="d-flex flex-row align-items-center justify-content-start">
-            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram insta-color" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook face-color" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter twit-color" aria-hidden="true"></i></a></li>
         </ul>
     </div>
 </div>

@@ -14,6 +14,7 @@
 <link href="plugins/jquery-datepicker/jquery-ui.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/pages_styles.css">
 <link rel="icon" href="img/icon.png">
 </head>
 <body>
@@ -35,7 +36,7 @@
 				
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/teal-stethoscope-on-wooden-table-3758748.jpg)"></div>
+					<div class="background_image" data-dark-overlay="6" style="background-image:url(images/person-holding-laboratory-flask-2280571.jpg)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
@@ -44,11 +45,11 @@
 										<div class="home_subtitle">Some Heading Here</div>
 										<div class="home_title">Main Text Here</div>
 										<div class="home_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
+											<p class="main-prgraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
 										</div>
 										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
 											<div class="button button_1 trans_200"><a href="#">read more</a></div>
-											<div class="button button_2 trans_200"><a href="#">make an appointment</a></div>
+											<div class="button button_2 button-white trans_200"><a href="#">more about us</a></div>
 										</div>
 									</div>
 								</div>
@@ -59,7 +60,7 @@
 
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/teal-stethoscope-on-wooden-table-3758748.jpg)"></div>
+					<div class="background_image" data-dark-overlay="6" style="background-image:url(images/man-standing-beside-his-wife-teaching-their-child-how-to-1128318.jpg)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
@@ -68,11 +69,11 @@
 										<div class="home_subtitle">Some Heading Here</div>
 										<div class="home_title">Main Text Here</div>
 										<div class="home_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
+											<p class="main-prgraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
 										</div>
 										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
 											<div class="button button_1 trans_200"><a href="#">read more</a></div>
-											<div class="button button_2 trans_200"><a href="#">make an appointment</a></div>
+											<div class="button button_2 button-white trans_200"><a href="#">more about us</a></div>
 										</div>
 									</div>
 								</div>
@@ -83,7 +84,7 @@
 
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/teal-stethoscope-on-wooden-table-3758748.jpg)"></div>
+					<div class="background_image" data-dark-overlay="6" style="background-image:url(images/two-men-standing-inside-a-room-2182976.jpg)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
@@ -92,11 +93,11 @@
 										<div class="home_subtitle">Some Heading Here</div>
 										<div class="home_title">Main Text Here</div>
 										<div class="home_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
+											<p class="main-prgraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
 										</div>
 										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
 											<div class="button button_1 trans_200"><a href="#">read more</a></div>
-											<div class="button button_2 trans_200"><a href="#">make an appointment</a></div>
+											<div class="button button_2 button-white trans_200"><a href="#">more about us</a></div>
 										</div>
 									</div>
 								</div>
