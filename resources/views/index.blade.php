@@ -135,13 +135,18 @@
 				<div class="col-lg-6 intro_col">
 					<div class="intro_content">
 						<div class="section_title_container">
-							<div class="section_subtitle">This is some text</div>
-							<div class="section_title"><h2>Some major section</h2></div>
+							<div class="section_subtitle">Medication risk management </div>
+							<div class="section_title"><h2>Empowering You Through Genomics</h2></div>
 						</div>
 						<div class="intro_text">
-							<p>Integer aliquet congue libero, eu gravida odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna vestibulum in. Nulla facilisi. Nulla egestas vel lacus sed interdum. Sed mollis, orci elementum eleifend tempor, nunc libero porttitor tellus, vel pharetra metus dolor.</p>
+							<p>Our tools assesses a patient's medication risk based on lifestyle and current drug regimen,
+								as well as provides advice on the benefits of pharmacogenomic testing.
+								Visualize medication risks against intended therapeutic goals—decrease 
+								adverse events while addressing medical intent. Let us help you increase revenue, 
+								while improving patient care. 
+							</p>
 						</div>
-						<div class="milestones">
+						{{-- <div class="milestones">
 							<div class="row milestones_row">
 							
 								<!-- Milestone -->
@@ -169,14 +174,14 @@
 								</div>
 
 							</div>
-						</div>
+						</div> --}}
 					</div>
 				</div>
 
 				<!-- Intro Form -->
 				<div class="col-lg-6 intro_col">
 					<div class="intro_form_container">
-						<div class="intro_form_title">Make an Appointment</div>
+						<div class="intro_form_title">Schedule a Call</div>
 						<form action="#" class="intro_form" id="intro_form">
 							<div class="d-flex flex-row align-items-start justify-content-between flex-wrap">
 								<input type="text" class="intro_input" placeholder="Your Name" required="required">
@@ -200,7 +205,7 @@
 										<option>Doctor 5</option>
 									</select> --}}
 							</div>
-							<button class="button button_1 intro_button trans_200">make an appointment</button>
+							<button class="button button_1 intro_button trans_200">Schedule A Call</button>
 						</form>
 					</div>
 				</div>
@@ -231,41 +236,49 @@
 							<div class="section_title"><h2>Why choose us?</h2></div>
 						</div>
 						<div class="why_text">
-							<p class="white_text">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna vestibulum in. Nulla facilisi. Nulla egestas vel lacus sed interdum. Sed mollis, orci elementum eleifend tempor, nunc libero porttitor tellus, vel pharetra metus dolor.</p>
+							<p class="white_text">Simply put we empower providers and engage patients. We provide your clinic with two unique and fully 
+								integrated tools for complete medication risk modeling and personalized patient care — all on an individual, 
+								specific patient basis.
+							</p>
 						</div>
 						<div class="why_list">
 							<ul>
-
+								<div class="icon_container icon_container_orange d-flex flex-column align-items-center justify-content-center align-left">
+									<div class="icon"><img src="images/icon_1.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+								</div>
 								<!-- Why List Item -->
 								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div class="icon_container icon_container_orange d-flex flex-column align-items-center justify-content-center">
-										<div class="icon"><img src="images/icon_1.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
-									</div>
 									<div class="why_list_content">
-										<div class="why_list_title">Only Top Products</div>
-										<div class="why_list_text white_text">Etiam ac erat ut enim maximus accumsan vel ac nisl</div>
+										<div class="why_list_title">Two prescription drug decision support tools</div>
+										<div class="why_list_text white_text">Improve medication efficacy, reduce risk, and increase patient compliance. 
+											Reduce costs and minimize patient frustration.
+										</div>
 									</div>
 								</li>
 
 								<!-- Why List Item -->
+								<div class="icon_container icon_container_orange d-flex flex-column align-items-center justify-content-center align-left margin-top">
+									<div class="icon"><img src="images/icon_2.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+								</div>
 								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div class="icon_container icon_container_orange d-flex flex-column align-items-center justify-content-center">
-										<div class="icon"><img src="images/icon_2.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
-									</div>
 									<div class="why_list_content">
-										<div class="why_list_title">The best Doctors</div>
-										<div class="why_list_text white_text">Ac erat ut enim maximus accumsan vel ac</div>
+										<div class="why_list_title">Optimal Personalized Care</div>
+										<div class="why_list_text white_text">We give medical professionals a total solution for medication risk management, 
+											with detailed findings and recommendations based on impact and severity.
+										</div>
 									</div>
 								</li>
 
 								<!-- Why List Item -->
+								<div class="icon_container icon_container_orange d-flex flex-column align-items-center justify-content-center align-left margin-top">
+									<div class="icon"><img src="images/icon_3.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+								</div>
 								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div class="icon_container icon_container_orange d-flex flex-column align-items-center justify-content-center">
-										<div class="icon"><img src="images/icon_3.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
-									</div>
 									<div class="why_list_content">
-										<div class="why_list_title">Great Feedback</div>
-										<div class="why_list_text white_text">Etiam ac erat ut enim maximus accumsan vel</div>
+										<div class="why_list_title">One-Click Medication Regimen Optimization</div>
+										<div class="why_list_text white_text">With our tools you get rapid decision support, visualize improvement &amp; risks, 
+											real-time risk modeling, alternatives by therapeutic intent, risk, &amp; cost, and much more.
+										</div>
 									</div>
 								</li>
 
@@ -286,7 +299,7 @@
 					<div class="cta_container d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
 						<div class="cta_content">
 							<div class="cta_title">Give us a call today!</div>
-							<div class="cta_text">Etiam ac erat ut enim maximus accumsan vel ac nisl</div>
+							<div class="cta_text">We'd love to discuss how we can help you.</div>
 						</div>
 						<div class="cta_phone ml-lg-auto">+34 586 778 8892</div>
 					</div>
@@ -463,7 +476,7 @@
 							</div>
 							<div class="extra_title">Call us Now</div>
 							<div class="extra_text">
-								<p>Nulla facilisi. Nulla egestas vel lacus sed interdum. Sed mollis, orci elementum eleifend tempor, nunc libero porttitor tellus.</p>
+								<p>Give us a call and tell us how you found our company to get a promotional dicsount and other perks when you signup.</p>
 							</div>
 							<div class="button button_1 extra_link trans_200"><a href="#">call us</a></div>
 						</div>

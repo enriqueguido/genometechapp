@@ -140,5 +140,10 @@
 
   .align-left 
   {
-    /* margin-right: 0px !important; */
+    float: left !important;
+  }
+
+  .margin-top 
+  {
+    margin-top: 10px;
   }
