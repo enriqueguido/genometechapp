@@ -8,7 +8,7 @@
             <img class="logo-genome" src="images/logo.svg" alt="Genome Technologies Logo">
         </a>
         <div class="logo">
-            <a href="#">
+        <a href="{{ url('/') }}">
                 <div>
                     Genome
                         {{-- <span> --}}

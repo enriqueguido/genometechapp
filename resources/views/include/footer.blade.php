@@ -8,11 +8,15 @@
 					<!-- Footer About -->
 					<div class="col-lg-3 footer_col">
 						<div class="footer_about">
+							<a href="{{ url('/') }}">
+								<img class="logo-genome-footer" src="images/logo.svg" alt="Genome Technologies Logo Footer">
+							</a>
 							<div class="footer_logo">
 								<a href="#">
-									<div>Genome<span>Tech</span></div>
+									<div>Genome</div>
+									<div class="footer_logo_name">Technologies</div>
 									<div>Personalized Medicine</div>
-								</a>
+								</a>								
 							</div>
 							<div class="footer_about_text">
 								<p>Nulla facilisi. Nulla egestas vel lacus sed interdum. Sed mollis, orci eleme ntum eleifend tempor, nunc libero porttitor tellus.</p>
@@ -21,7 +25,7 @@
 					</div>
 
 					<!-- Footer Contact Info -->
-					<div class="col-lg-3 footer_col">
+					<div class="col-lg-3 footer_col cont-info-pad">
 						<div class="footer_contact">
 							<div class="footer_title">Contact Info</div>
 							<ul class="contact_list">
@@ -37,10 +41,6 @@
 						<div class="footer_location">
 							<div class="footer_title">Our Locations</div>
 							<ul class="locations_list">
-								<li>
-									<div class="location_title">Miami</div>
-									<div class="location_text">45 Creekside Av, FL 931</div>
-								</li>
 								<li>
 									<div class="location_title">New York</div>
 									<div class="location_text">45 Creekside Lane, NY 931</div>
@@ -86,10 +86,9 @@
 				<div class="row">
 					<div class="col">
 						<div class="footer_bar_content  d-flex flex-md-row flex-column align-items-md-center justify-content-start">
-							{{-- <div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> --}}
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-{{-- </div> --}}
+							<div class="copyright">
+								Copyright &copy; Genome Technologies All rights reserved | Created by <a href="http://codeblockapps.com/" target="_blank">CodeBlock</a>
+							</div>
 							<nav class="footer_nav ml-md-auto">
 								<ul class="d-flex flex-row align-items-center justify-content-start">
 									<li><a href="index.html">Home</a></li>

@@ -26,7 +26,7 @@
 	@extends('include/navbar')
 
 	<!-- =============================== Extending Navbar End ================================ -->
-	<!-- Home -->
+	<!-- ====================================== Home ===================================-->
 
 	<div class="home">
 
@@ -42,10 +42,10 @@
 							<div class="row">
 								<div class="col">
 									<div class="home_content">
-										<div class="home_subtitle">Some Heading Here</div>
-										<div class="home_title">Main Text Here</div>
+										<div class="home_subtitle">Genetic Testing for Hereditary Cancer Syndromes</div>
+										<div class="home_title">National Cancer Institute</div>
 										<div class="home_text">
-											<p class="main-prgraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
+											<p class="main-prgraph">Cancer can sometimes appear to “run in families” even if it is not caused by an inherited mutation.</p>
 										</div>
 										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
 											<div class="button button_1 trans_200"><a href="#">read more</a></div>
@@ -178,23 +178,23 @@
 								<input type="text" class="intro_input" placeholder="Your Name" required="required">
 								<input type="email" class="intro_input" placeholder="Your E-mail" required="required">
 								<input type="tel" class="intro_input" placeholder="Your Phone" required="required">
-								<select class="intro_select intro_input" required>
+								<input type="text" id="datepicker" class="intro_input datepicker" placeholder="Date" required="required">
+								{{-- <select class="intro_select intro_input" required>
 									<option disabled="" selected="" value="">Speciality</option>
 									<option>Speciality 1</option>
 									<option>Speciality 2</option>
 									<option>Speciality 3</option>
 									<option>Speciality 4</option>
 									<option>Speciality 5</option>
-								</select>
-								<select class="intro_select intro_input" required="required">
+								</select> --}}
+								{{-- <select class="intro_select intro_input" required="required">
 										<option disabled="" selected="" value="">Doctor</option>
 										<option>Doctor 1</option>
 										<option>Doctor 2</option>
 										<option>Doctor 3</option>
 										<option>Doctor 4</option>
 										<option>Doctor 5</option>
-									</select>
-								<input type="text" id="datepicker" class="intro_input datepicker" placeholder="Date" required="required">
+									</select> --}}
 							</div>
 							<button class="button button_1 intro_button trans_200">make an appointment</button>
 						</form>
@@ -208,16 +208,16 @@
 	<!-- Why Choose Us -->
 
 	<div class="why">
-		<!-- <div class="background_image" style="background-image:url(images/why.jpg)"></div> -->
+		<div class="background_image orage_overlay" style="background-image:url(images/portrait-photo-of-woman-holding-up-a-magnifying-glass.jpg)"></div>
 		<div class="container">
 			<div class="row row-eq-height">
 
 				<!-- Why Choose Us Image -->
-				<div class="col-lg-6 order-lg-1 order-2">
+				{{-- <div class="col-lg-6 order-lg-1 order-2">
 					<div class="why_image_container">
 						<div class="why_image"><img src="images/.jpg" alt=""></div>
 					</div>
-				</div>
+				</div> --}}
 
 				<!-- Why Choose Us Content -->
 				<div class="col-lg-6 order-lg-2 order-1">
@@ -227,41 +227,41 @@
 							<div class="section_title"><h2>Why choose us?</h2></div>
 						</div>
 						<div class="why_text">
-							<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna vestibulum in. Nulla facilisi. Nulla egestas vel lacus sed interdum. Sed mollis, orci elementum eleifend tempor, nunc libero porttitor tellus, vel pharetra metus dolor.</p>
+							<p class="white_text">Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna vestibulum in. Nulla facilisi. Nulla egestas vel lacus sed interdum. Sed mollis, orci elementum eleifend tempor, nunc libero porttitor tellus, vel pharetra metus dolor.</p>
 						</div>
 						<div class="why_list">
 							<ul>
 
 								<!-- Why List Item -->
 								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div class="icon_container d-flex flex-column align-items-center justify-content-center">
+									<div class="icon_container icon_container_orange d-flex flex-column align-items-center justify-content-center">
 										<div class="icon"><img src="images/icon_1.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
 									</div>
 									<div class="why_list_content">
 										<div class="why_list_title">Only Top Products</div>
-										<div class="why_list_text">Etiam ac erat ut enim maximus accumsan vel ac nisl</div>
+										<div class="why_list_text white_text">Etiam ac erat ut enim maximus accumsan vel ac nisl</div>
 									</div>
 								</li>
 
 								<!-- Why List Item -->
 								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div class="icon_container d-flex flex-column align-items-center justify-content-center">
+									<div class="icon_container icon_container_orange d-flex flex-column align-items-center justify-content-center">
 										<div class="icon"><img src="images/icon_2.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
 									</div>
 									<div class="why_list_content">
 										<div class="why_list_title">The best Doctors</div>
-										<div class="why_list_text">Ac erat ut enim maximus accumsan vel ac</div>
+										<div class="why_list_text white_text">Ac erat ut enim maximus accumsan vel ac</div>
 									</div>
 								</li>
 
 								<!-- Why List Item -->
 								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div class="icon_container d-flex flex-column align-items-center justify-content-center">
+									<div class="icon_container icon_container_orange d-flex flex-column align-items-center justify-content-center">
 										<div class="icon"><img src="images/icon_3.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
 									</div>
 									<div class="why_list_content">
 										<div class="why_list_title">Great Feedback</div>
-										<div class="why_list_text">Etiam ac erat ut enim maximus accumsan vel</div>
+										<div class="why_list_text white_text">Etiam ac erat ut enim maximus accumsan vel</div>
 									</div>
 								</li>
 
@@ -281,7 +281,7 @@
 				<div class="col">
 					<div class="cta_container d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
 						<div class="cta_content">
-							<div class="cta_title">Make your appointment today!</div>
+							<div class="cta_title">Give us a call today!</div>
 							<div class="cta_text">Etiam ac erat ut enim maximus accumsan vel ac nisl</div>
 						</div>
 						<div class="cta_phone ml-lg-auto">+34 586 778 8892</div>
@@ -402,7 +402,7 @@
 	<!-- Extra -->
 
 	<div class="extra">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/medicines-thermometer-5795.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-dark-overlay="6" data-parallax="scroll" data-image-src="images/scientist-using-microscope.jpg" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -427,7 +427,7 @@
 	<!-- Newsletter -->
 
 	<div class="newsletter">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/white-and-blue-health-pill-and-tablet-letter-cutout-on-806427.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window orage_overlay" data-parallax="scroll" data-image-src="images/syringe-and-pills-on-blue-background.jpg" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">

@@ -61,7 +61,7 @@
 }
 .button-white:hover a
 {
-	color: #fe7602 !important;
+	color: #287cbc !important;
 }
 
 .main-prgraph 
@@ -85,3 +85,60 @@
 } */
 
 
+.icon_container_orange
+{
+	width: 61px !important;
+	height: 61px !important;
+	border-radius: 50% !important;
+	background: #fe7701 !important;
+}
+
+.white_text 
+{
+    color: #ffffff !important;
+}
+
+.orage_overlay:after {
+    opacity: 0.6;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fe9845;
+    /* z-index: -1 */
+  }
+
+  .footer_logo_name 
+  {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 0.75;
+    color: #FFFFFF;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .logo-genome-footer 
+  {
+    height: 85px;
+    margin-bottom: -75px;
+    margin-left: -12px;
+  }
+
+  .cont-info-pad 
+  {
+      padding-left: 45px !important;
+  }
+
+  .img-hnw 
+  {
+      height: 812px;
+      width: 649px;
+  }
+
+  .align-left 
+  {
+    margin-right: 0px !important;
+  }

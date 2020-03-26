@@ -277,7 +277,7 @@ section
 }
 .button_1
 {
-	background: #fe7602;
+	background: #287cbc;
 	border: solid 2px transparent;
 }
 .button_1 a
@@ -287,11 +287,11 @@ section
 .button_1:hover
 {
 	background: transparent;
-	border: solid 2px #fe7602;
+	border: solid 2px #287cbc;
 }
 .button_1:hover a
 {
-	color: #fe7602;
+	color: #287cbc;
 }
 .button_2
 {
@@ -314,7 +314,7 @@ section
 {
 	font-size: 18px;
 	font-weight: 500;
-	color: #a6abb2;
+	color: #fe7701;
 	line-height: 0.75;
 }
 .section_title
@@ -389,7 +389,7 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color: #fe7602;
+	color: #287cbc;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -438,7 +438,7 @@ section
 }
 .social ul li:hover
 {
-	background: #fe7602;
+	background: #287cbc;
 }
 .social ul li:hover a i
 {
@@ -705,7 +705,7 @@ section
 .home_slider_custom_dot.active,
 .home_slider_custom_dot:hover
 {
-	background: #fe7602;
+	background: #287cbc;
 }
 .home_slider_custom_dot:not(:last-child)
 {
@@ -735,7 +735,7 @@ section
 {
 	font-size: 36px;
 	font-weight: 700;
-	color: #57ccc3;
+	color: #f04a8a;
 	line-height: 0.75;
 }
 .milestone_text
@@ -763,7 +763,7 @@ section
 	left: 0;
 	width: 336px;
 	height: 80px;
-	background: #57ccc3;
+	background: #f04a8a;
 	line-height: 80px;
 	text-align: center;
 	font-size: 24px;
@@ -821,7 +821,7 @@ section
 .intro_input:focus,
 .intro_input:hover
 {
-	border: solid 2px #57ccc3;
+	border: solid 2px #f04a8a;
 }
 .intro_input::-webkit-input-placeholder
 {
@@ -871,8 +871,8 @@ section
 .intro_button:hover
 {
 	background: transparent;
-	border: solid 2px #fd556d;
-	color: #fd556d;
+	border: solid 2px #287cbc;
+	color: #287cbc;
 }
 
 /*********************************
@@ -906,7 +906,7 @@ section
 	width: 61px;
 	height: 61px;
 	border-radius: 50%;
-	background: #6bdbd2;
+	background: #fe7701;
 }
 .icon
 {
@@ -953,7 +953,7 @@ section
 .cta
 {
 	width: 100%;
-	background: #fd556d;
+	background: #287cbc;
 	padding-top: 49px;
 	padding-bottom: 46px;
 }
@@ -982,9 +982,10 @@ section
 	font-size: 30px;
 	font-weight: 600;
 	color: #fff;
-	background: #ee4860;
+	background: #065681;
 	border-radius: 19px;
 	white-space: nowrap;
+	/* margin-right: 450px; */
 }
 
 /*********************************
@@ -1045,7 +1046,7 @@ section
 {
 	font-size: 60px;
 	font-weight: 700;
-	color: #6bdbd2;
+	color: #f04a8a;
 	line-height: 0.75;
 }
 .extra_disc > div:last-child
@@ -1153,7 +1154,7 @@ section
 	width: 167px;
 	height: 46px;
 	border-radius: 19px;
-	background: #fd556d;
+	background: #287cbc;
 	cursor: pointer;
 	border: none;
 	outline: none;
@@ -1181,6 +1182,7 @@ section
 .footer_about
 {
 	padding-top: 19px;
+	margin-top: -50px;
 }
 .footer_logo a > div:first-child
 {
@@ -1188,6 +1190,7 @@ section
 	font-weight: 700;
 	line-height: 0.75;
 	color: #FFFFFF;
+	text-align: center;
 }
 .footer_logo a > div:first-child span
 {
@@ -1201,6 +1204,8 @@ section
 	font-weight: 500;
 	line-height: 0.75;
 	margin-top: 6px;
+	text-align: center;
+	margin-top: 14px;
 }
 .footer_about_text
 {
@@ -1209,6 +1214,7 @@ section
 .footer_about_text p
 {
 	color: #868686;
+	margin-top: -10px;
 }
 .footer_title
 {
@@ -1256,7 +1262,7 @@ section
 {
 	font-size: 15px;
 	font-weight: 500;
-	color: #57ccc3;
+	color: #287cbc;
 }
 .location_text
 {
@@ -1311,5 +1317,5 @@ section
 }
 .footer_nav ul li a:hover
 {
-	color: #57ccc3;
+	color: #287cbc;
 }
