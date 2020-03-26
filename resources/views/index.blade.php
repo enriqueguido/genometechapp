@@ -316,7 +316,7 @@
 							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
 								<div class="icon"><img src="images/icon_4.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
 							</div>
-							<div class="service_title">Some Service</div>
+							<div class="service_title">Health &amp; Wellness Screening</div>
 							<div class="service_text">
 								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
 							</div>
@@ -331,7 +331,7 @@
 							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
 								<div class="icon"><img src="images/icon_5.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
 							</div>
-							<div class="service_title">Some Service</div>
+							<div class="service_title">Hereditary Cancer Screening</div>
 							<div class="service_text">
 								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
 							</div>
@@ -346,7 +346,7 @@
 							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
 								<div class="icon"><img src="images/icon_6.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
 							</div>
-							<div class="service_title">Some Service</div>
+							<div class="service_title">Pharmacogenetic Testing</div>
 							<div class="service_text">
 								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
 							</div>
@@ -361,7 +361,7 @@
 							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
 								<div class="icon"><img src="images/icon_7.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
 							</div>
-							<div class="service_title">Some Service</div>
+							<div class="service_title">Carrier Screening</div>
 							<div class="service_text">
 								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
 							</div>
@@ -376,7 +376,7 @@
 							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
 								<div class="icon"><img src="images/icon_8.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
 							</div>
-							<div class="service_title">Some Service</div>
+							<div class="service_title">Toxicology</div>
 							<div class="service_text">
 								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
 							</div>
@@ -391,7 +391,52 @@
 							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
 								<div class="icon"><img src="images/icon_3.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
 							</div>
-							<div class="service_title">Some Service</div>
+							<div class="service_title">Respiratory Pathogen Detection</div>
+							<div class="service_text">
+								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Service -->
+				<div class="col-xl-4 col-md-6 service_col">
+					<div class="service text-center">
+						<div class="service">
+							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+								<div class="icon"><img src="images/icon_3.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+							</div>
+							<div class="service_title">NIPT Screening</div>
+							<div class="service_text">
+								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Service -->
+				<div class="col-xl-4 col-md-6 service_col">
+					<div class="service text-center">
+						<div class="service">
+							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+								<div class="icon"><img src="images/icon_3.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+							</div>
+							<div class="service_title">Fungal Pathogen Detection</div>
+							<div class="service_text">
+								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Service -->
+				<div class="col-xl-4 col-md-6 service_col">
+					<div class="service text-center">
+						<div class="service">
+							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+								<div class="icon"><img src="images/icon_3.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+							</div>
+							<div class="service_title">Parkinson's, Alzheimer, &amp; Dementia Panel</div>
 							<div class="service_text">
 								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
 							</div>
@@ -413,14 +458,14 @@
 					<div class="extra_container d-flex flex-row align-items-start justify-content-end">
 						<div class="extra_content">
 							<div class="extra_disc d-flex flex-row align-items-end justify-content-start">
-								<div>30<span>%</span></div>
+								<div>10<span>%</span></div>
 								<div>Discount</div>
 							</div>
-							<div class="extra_title">Only in August</div>
+							<div class="extra_title">Call us Now</div>
 							<div class="extra_text">
 								<p>Nulla facilisi. Nulla egestas vel lacus sed interdum. Sed mollis, orci elementum eleifend tempor, nunc libero porttitor tellus.</p>
 							</div>
-							<div class="button button_1 extra_link trans_200"><a href="#">read more</a></div>
+							<div class="button button_1 extra_link trans_200"><a href="#">call us</a></div>
 						</div>
 					</div>
 				</div>
