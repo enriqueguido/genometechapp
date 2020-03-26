@@ -42,8 +42,9 @@
 							<div class="row">
 								<div class="col">
 									<div class="home_content">
-										<div class="home_subtitle">Genetic Testing for Hereditary Cancer Syndromes</div>
+										{{-- <div class="home_subtitle">Genetic Testing for Hereditary Cancer Syndromes</div> --}}
 										<div class="home_title">National Cancer Institute</div>
+										<div class="home_subtitle">Genetic Testing for Hereditary Cancer Syndromes</div>
 										<div class="home_text">
 											<p class="main-prgraph">Cancer can sometimes appear to “run in families” even if it is not caused by an inherited mutation.</p>
 										</div>
@@ -66,10 +67,13 @@
 							<div class="row">
 								<div class="col">
 									<div class="home_content">
-										<div class="home_subtitle">Some Heading Here</div>
-										<div class="home_title">Main Text Here</div>
+										{{-- <div class="home_subtitle">4th Leading Cuased Of Death In US</div> --}}
+										<div class="home_title">Adverse Drug Reactions</div>
+										<div class="home_subtitle">4th Leading Cuased Of Death In The US.</div>
 										<div class="home_text">
-											<p class="main-prgraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
+											<p class="main-prgraph">With a simple non-invasive test, practitioners are provided with a report indicating which
+												drugs will work, which will be dangerous, and in many cases what dosage will be most
+												appropriate.</p>
 										</div>
 										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
 											<div class="button button_1 trans_200"><a href="#">read more</a></div>
@@ -90,10 +94,10 @@
 							<div class="row">
 								<div class="col">
 									<div class="home_content">
-										<div class="home_subtitle">Some Heading Here</div>
-										<div class="home_title">Main Text Here</div>
+										<div class="home_title">Identify Allergy Triggers</div>
+										<div class="home_subtitle">Optimize Treatments To Improve The Quality Of Life</div>
 										<div class="home_text">
-											<p class="main-prgraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
+											<p class="main-prgraph">Get to the root of your patients’ allergy-like symptoms with Allergen-Specific IgE Blood Testing.</p>
 										</div>
 										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
 											<div class="button button_1 trans_200"><a href="#">read more</a></div>
