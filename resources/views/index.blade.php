@@ -61,7 +61,7 @@
 
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" data-dark-overlay="6" style="background-image:url(images/man-standing-beside-his-wife-teaching-their-child-how-to-1128318.jpg)"></div>
+					<div class="background_image" data-dark-overlay="6" style="background-image:url(images/two-men-standing-inside-a-room-2182976.jpg)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
@@ -88,7 +88,7 @@
 
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" data-dark-overlay="6" style="background-image:url(images/two-men-standing-inside-a-room-2182976.jpg)"></div>
+					<div class="background_image" data-dark-overlay="6" style="background-image:url(images/man-standing-beside-his-wife-teaching-their-child-how-to-1128318.jpg)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
@@ -428,7 +428,9 @@
 							</div>
 							<div class="service_title">NIPT Screening</div>
 							<div class="service_text">
-								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+								<p>Lower Respiratory Track Infections along with Influenza, are the most common causes of death in the 
+									United States. Identifying the  
+								</p>
 							</div>
 						</div>
 					</div>
