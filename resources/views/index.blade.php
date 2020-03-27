@@ -331,7 +331,9 @@
 							</div>
 							<div class="service_title">Health &amp; Wellness Screening</div>
 							<div class="service_text">
-								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+								<p>Our Clinical Health &amp; Wellness Screening Profile provides valuable insight to a patients' health 
+									and nutrition through their comprehensive diagnostic profile.
+								</p>
 							</div>
 						</div>
 					</div>
@@ -346,7 +348,8 @@
 							</div>
 							<div class="service_title">Hereditary Cancer Screening</div>
 							<div class="service_text">
-								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+								<p>Over 1 million Americans are diagnosed with cancer each year. Of these diagnoses, 
+									approximately 5% of the genesis of the cancer is contributed to genetic factors.</p>
 							</div>
 						</div>
 					</div>
@@ -376,7 +379,8 @@
 							</div>
 							<div class="service_title">Carrier Screening</div>
 							<div class="service_text">
-								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+								<p>The American Medical Association states that about one-quarter of new prescriptions are never, 
+									and patients do not take their medications about 50% of the time.</p>
 							</div>
 						</div>
 					</div>
@@ -391,7 +395,10 @@
 							</div>
 							<div class="service_title">Toxicology</div>
 							<div class="service_text">
-								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+								<p>We provide clear and accurate results with a rapid turn around time. Clinicians may choose 
+									to test urine or oral fluid samples to confirm more than 150 analytes spanning more than 
+									200 drug classes.
+								</p>
 							</div>
 						</div>
 					</div>
