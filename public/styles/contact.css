@@ -831,7 +831,7 @@ section
 	font-weight: 500;
 	line-height: 48px;
 	color: #fff;
-	background-color: #fd556d;
+	background-color: #287cbc;
 	white-space: nowrap;
 }
 .direct_line_num
@@ -858,7 +858,7 @@ section
 	width: 90px;
 	font-size: 18px;
 	font-weight: 600;
-	color: #57ccc3;
+	color: #287cbc;
 	line-height: 1.34;
 }
 .contact_info ul li > div:last-of-type

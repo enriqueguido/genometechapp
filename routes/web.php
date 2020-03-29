@@ -11,8 +11,18 @@
 |
 */
 
+/*
+| Home Ruote 
+*/
 Route::get('/', function () {
     return view('index');
+});
+
+/*
+| Contact Us Route
+*/ 
+Route::get('/contact', function (){
+    return view('pages/contact');
 });
 
 

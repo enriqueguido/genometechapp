@@ -147,3 +147,21 @@
   {
     margin-top: 10px;
   }
+
+  /*  */
+
+
+[data-dark-overlay="7"]:after {
+    opacity: 0.6;
+}
+
+[data-dark-overlay]:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #287cbc;
+  /* z-index: -1 */
+}
