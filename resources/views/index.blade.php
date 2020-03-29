@@ -61,7 +61,7 @@
 
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" data-dark-overlay="6" style="background-image:url(images/family.jpg)"></div>
+					<div class="background_image" data-dark-overlay="6" style="background-image:url(images/doctor-rep.jpg)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
@@ -88,7 +88,7 @@
 
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" data-dark-overlay="6" style="background-image:url(images/doctor-rep.jpg)"></div>
+					<div class="background_image" data-dark-overlay="6" style="background-image:url(images/family.jpg)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
