@@ -33,7 +33,7 @@
 	<!-- Home -->
 
 	<div class="home d-flex flex-column align-items-start justify-content-end">
-		<div class="parallax_background parallax-window" data-dark-overlay="7" data-parallax="scroll" data-image-src="images/new-york-city.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-dark-overlay="7" data-parallax="scroll" data-image-src="images/new-york.jpg" data-speed="0.8"></div>
 		<div class="home_overlay"><img src="images/home_overlay_blue.png" alt=""></div>
 		<div class="home_container">
 			<div class="container">
@@ -41,7 +41,7 @@
 					<div class="col">
 						<div class="home_content">
 							<div class="home_title">Contact</div>
-							<div class="home_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+							<div class="home_text home_text_contact">For more information about working with us or any questions you may have please give us a call.</div>
 						</div>
 					</div>
 				</div>
@@ -116,7 +116,7 @@
 					<div class="contact_content">
 						<div class="contact_content_title">Get in touch with us</div>
 						<div class="contact_content_text">
-							<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feug iat bibendum orci, non elementum urna. Cras sit amet sapien aliquam.</p>
+							<p>We would love to discuss or services or answer any questions you may have. Send us an email and we will contact you as soon as possible.  </p>
 						</div>
 						<div class="direct_line d-flex flex-row align-items-center justify-content-start">
 							<div class="direct_line_title text-center">Direct Line</div>
@@ -126,7 +126,7 @@
 							<ul>
 								<li class="d-flex flex-row align-items-start justify-content-start">
 									<div>Address</div>
-									<div>1481 Creekside Lane Avila Beach, CA 931</div>
+									<div>1234 Some ST, NY 931</div>
 								</li>
 								<li class="d-flex flex-row align-items-start justify-content-start">
 									<div>Phone</div>
@@ -139,12 +139,9 @@
 							</ul>
 						</div>
 						<div class="contact_social">
-							<ul class="d-flex flex-row align-items-center justify-content-start">
-								<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+							<ul class="d-flex flex-row align-items-center justify-content-start center-content">
 								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 							</ul>
 						</div>
@@ -178,7 +175,7 @@
 	<!-- Newsletter -->
 
 	<div class="newsletter">
-		<div class="parallax_background parallax-window orage_overlay" data-parallax="scroll" data-image-src="images/syringe-and-pills-on-blue-background.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window orage_overlay" data-parallax="scroll" data-image-src="images/rona.jpg" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">

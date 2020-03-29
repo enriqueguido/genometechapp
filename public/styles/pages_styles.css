@@ -148,14 +148,18 @@
     margin-top: 10px;
   }
 
-  /*  */
+/*****************************
+1. Contact Page
+******************************/
 
 
-[data-dark-overlay="7"]:after {
+[data-dark-overlay="7"]:after 
+{
     opacity: 0.6;
 }
 
-[data-dark-overlay]:after {
+[data-dark-overlay]:after 
+{
   position: absolute;
   content: '';
   top: 0;
@@ -164,4 +168,20 @@
   bottom: 0;
   background: #287cbc;
   /* z-index: -1 */
+}
+
+.home_text_contact 
+{
+  margin-top: 11px;
+  color: #FFFFFF !important;
+}
+
+.center-content 
+{
+  justify-content: center !important;
+}
+
+.contact_social ul li:not(:last-of-type) 
+{
+  margin-right: 50px !important;
 }

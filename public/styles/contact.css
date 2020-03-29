@@ -842,7 +842,7 @@ section
 	font-weight: 500;
 	line-height: 48px;
 	color: #fff;
-	background: #57ccc3;
+	background: #f04a8a;
 	white-space: nowrap;
 }
 .contact_info
@@ -889,7 +889,7 @@ section
 }
 .contact_social ul li a i:hover
 {
-	color: #57ccc3;
+	color: #287cbc;
 }
 .google_map_row
 {

@@ -21,19 +21,21 @@
 
 <div class="super_container">
 	
+		
 	<!-- =============================== Extending Navbar =================================== -->
 
 	@extends('include/navbar')
 
 	<!-- =============================== Extending Navbar End ================================ -->
-	<!-- ====================================== Home ===================================-->
+
+	<!-- Home -->
 
 	<div class="home">
 
 		<!-- Home Slider -->
 		<div class="home_slider_container">
 			<div class="owl-carousel owl-theme home_slider">
-
+				
 				<!-- Slide -->
 				<div class="owl-item">
 					<div class="background_image" data-dark-overlay="6" style="background-image:url(images/lab.jpg)"></div>
@@ -42,38 +44,10 @@
 							<div class="row">
 								<div class="col">
 									<div class="home_content">
-										{{-- <div class="home_subtitle">Genetic Testing for Hereditary Cancer Syndromes</div> --}}
 										<div class="home_title">National Cancer Institute</div>
 										<div class="home_subtitle">Genetic Testing for Hereditary Cancer Syndromes</div>
 										<div class="home_text">
 											<p class="main-prgraph">Cancer can sometimes appear to “run in families” even if it is not caused by an inherited mutation.</p>
-										</div>
-										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">read more</a></div>
-											<div class="button button_2 button-white trans_200"><a href="#">more about us</a></div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Slide -->
-				<div class="owl-item">
-					<div class="background_image" data-dark-overlay="6" style="background-image:url(images/family.jpg)"></div>
-					<div class="home_container">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_content">
-										{{-- <div class="home_subtitle">4th Leading Cuased Of Death In US</div> --}}
-										<div class="home_title">Adverse Drug Reactions</div>
-										<div class="home_subtitle">4th Leading Cuased Of Death In The US.</div>
-										<div class="home_text">
-											<p class="main-prgraph">With a simple non-invasive test, practitioners are provided with a report indicating which
-												drugs will work, which will be dangerous, and in many cases what dosage will be most
-												appropriate.</p>
 										</div>
 										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
 											<div class="button button_1 trans_200"><a href="#">read more</a></div>
@@ -94,6 +68,32 @@
 							<div class="row">
 								<div class="col">
 									<div class="home_content">
+										<div class="home_title">Adverse Drug Reactions</div>
+										<div class="home_subtitle">4th Leading Cuased Of Death In The US</div>
+										<div class="home_text">
+											<p class="main-prgraph">With a simple non-invasive test, practitioners are provided with a report indicating which
+												drugs will work, which will be dangerous, and in many cases what dosage will be most
+												appropriate.</p>
+										</div>
+										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
+											<div class="button button_1 trans_200"><a href="#">read more</a></div>
+											<div class="button button_2 button-white trans_200"><a href="#">make an appointment</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Slide -->
+				<div class="owl-item">
+					<div class="background_image" data-dark-overlay="6" style="background-image:url(images/family.jpg)"></div>
+					<div class="home_container">
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<div class="home_content">
 										<div class="home_title">Identify Allergy Triggers</div>
 										<div class="home_subtitle">Optimize Treatments To Improve The Quality Of Life</div>
 										<div class="home_text">
@@ -101,7 +101,7 @@
 										</div>
 										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
 											<div class="button button_1 trans_200"><a href="#">read more</a></div>
-											<div class="button button_2 button-white trans_200"><a href="#">more about us</a></div>
+											<div class="button button_2 button-white trans_200"><a href="#">make an appointment</a></div>
 										</div>
 									</div>
 								</div>
@@ -135,7 +135,7 @@
 				<div class="col-lg-6 intro_col">
 					<div class="intro_content">
 						<div class="section_title_container">
-							<div class="section_subtitle">Medication risk management </div>
+							<div class="section_subtitle">Medication risk management</div>
 							<div class="section_title"><h2>Empowering You Through Genomics</h2></div>
 						</div>
 						<div class="intro_text">
@@ -143,8 +143,7 @@
 								as well as provides advice on the benefits of pharmacogenomic testing.
 								Visualize medication risks against intended therapeutic goals—decrease 
 								adverse events while addressing medical intent. Let us help you increase revenue, 
-								while improving patient care. 
-							</p>
+								while improving patient care. </p>
 						</div>
 						{{-- <div class="milestones">
 							<div class="row milestones_row">
@@ -153,7 +152,7 @@
 								<div class="col-md-4 milestone_col">
 									<div class="milestone">
 										<div class="milestone_counter" data-end-value="5000" data-sign-before="+">0</div>
-										<div class="milestone_text">Clients Info</div>
+										<div class="milestone_text">Satisfied Patients</div>
 									</div>
 								</div>
 
@@ -161,7 +160,7 @@
 								<div class="col-md-4 milestone_col">
 									<div class="milestone">
 										<div class="milestone_counter" data-end-value="352">0</div>
-										<div class="milestone_text">More Stats</div>
+										<div class="milestone_text">Face Liftings</div>
 									</div>
 								</div>
 
@@ -169,7 +168,7 @@
 								<div class="col-md-4 milestone_col">
 									<div class="milestone">
 										<div class="milestone_counter" data-end-value="718">0</div>
-										<div class="milestone_text">Something</div>
+										<div class="milestone_text">Injectibles</div>
 									</div>
 								</div>
 
@@ -187,7 +186,6 @@
 								<input type="text" class="intro_input" placeholder="Your Name" required="required">
 								<input type="email" class="intro_input" placeholder="Your E-mail" required="required">
 								<input type="tel" class="intro_input" placeholder="Your Phone" required="required">
-								<input type="text" id="datepicker" class="intro_input datepicker" placeholder="Date" required="required">
 								{{-- <select class="intro_select intro_input" required>
 									<option disabled="" selected="" value="">Speciality</option>
 									<option>Speciality 1</option>
@@ -195,8 +193,8 @@
 									<option>Speciality 3</option>
 									<option>Speciality 4</option>
 									<option>Speciality 5</option>
-								</select> --}}
-								{{-- <select class="intro_select intro_input" required="required">
+								</select>
+								<select class="intro_select intro_input" required="required">
 										<option disabled="" selected="" value="">Doctor</option>
 										<option>Doctor 1</option>
 										<option>Doctor 2</option>
@@ -204,8 +202,9 @@
 										<option>Doctor 4</option>
 										<option>Doctor 5</option>
 									</select> --}}
+								<input type="text" id="datepicker" class="intro_input datepicker" placeholder="Date" required="required">
 							</div>
-							<button class="button button_1 intro_button trans_200">Schedule A Call</button>
+							<button class="button button_1 intro_button trans_200">Schedule a Call</button>
 						</form>
 					</div>
 				</div>
@@ -216,7 +215,7 @@
 
 	<!-- Why Choose Us -->
 
-	<div class="why" id="about">
+	<div class="why">
 		<div class="background_image orage_overlay" style="background-image:url(images/why-us-photo.jpg)"></div>
 		<div class="container">
 			<div class="row row-eq-height">
@@ -224,7 +223,7 @@
 				<!-- Why Choose Us Image -->
 				{{-- <div class="col-lg-6 order-lg-1 order-2">
 					<div class="why_image_container">
-						<div class="why_image"><img src="images/.jpg" alt=""></div>
+						<div class="why_image"><img src="images/why_1.jpg" alt=""></div>
 					</div>
 				</div> --}}
 
@@ -309,7 +308,7 @@
 	</div>
 
 	<!-- Services -->
-	<a id="services">
+
 	<div class="services">
 		<div class="container">
 			<div class="row">
@@ -321,7 +320,7 @@
 				</div>
 			</div>
 			<div class="row services_row">
-	</a>			
+				
 				<!-- Service -->
 				<div class="col-xl-4 col-md-6 service_col">
 					<div class="service text-center">
@@ -473,7 +472,7 @@
 	<!-- Extra -->
 
 	<div class="extra">
-		<div class="parallax_background parallax-window" data-dark-overlay="6" data-parallax="scroll" data-image-src="images/scientist.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-dark-overlay="6" data-image-src="images/scientist.jpg" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -517,6 +516,8 @@
 			</div>
 		</div>
 	</div>
+
+
 
 	<!-- =============================== Extending Footer ============================== -->
 

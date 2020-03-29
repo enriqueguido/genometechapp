@@ -91,11 +91,11 @@
 							</div>
 							<nav class="footer_nav ml-md-auto">
 								<ul class="d-flex flex-row align-items-center justify-content-start">
-									<li><a href="index.html">Home</a></li>
+									<li><a href="{{ url('/') }}">Home</a></li>
 									<li><a href="about.html">About us</a></li>
-									<li><a href="services.html">Services</a></li>
+									<li><a href="#services">Services</a></li>
 									{{-- <li><a href="blog.html">News</a></li> --}}
-									<li><a href="contact.html">Contact</a></li>
+									<li><a href="{{ url('/contact') }}">Contact</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -114,10 +114,14 @@
 <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
 <script src="plugins/greensock/animation.gsap.min.js"></script>
 <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 <script src="plugins/easing/easing.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="plugins/jquery-datepicker/jquery-ui.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
 <script src="js/contact.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="js/custom.js"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
