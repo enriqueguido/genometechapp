@@ -149,7 +149,7 @@
   }
 
 /*****************************
-1. Contact Page
+2. Contact Page
 ******************************/
 
 
@@ -184,4 +184,70 @@
 .contact_social ul li:not(:last-of-type) 
 {
   margin-right: 50px !important;
+}
+
+.intro_txt_area
+{
+  /* width: calc((100% - 15px) / 2); */
+  width: 100% !important;
+	height: 100px;
+	background: transparent;
+	border: solid 2px #e6ebf1;
+	margin-bottom: 18px;
+	padding-left: 25px;
+	outline: none;
+	font-size: 15px;
+	color: #404040;
+  font-weight: 500;
+  padding-top: 15px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.intro_txt_area:focus,
+.intro_txt_area:hover
+{
+	border: solid 2px #f04a8a;
+}
+.intro_txt_area::-webkit-input-placeholder
+{
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #a09f9f !important;
+}
+.intro_txt_area:-moz-placeholder
+{
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #a09f9f !important;
+}
+.intro_txt_area::-moz-placeholder
+{
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #a09f9f !important;
+} 
+.intro_txt_area:-ms-input-placeholder
+{ 
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #a09f9f !important;
+}
+.intro_txt_area::input-placeholder
+{
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #a09f9f !important;
+}
+
+.contact_form_margin 
+{
+  margin-top: 5% !important;
 }

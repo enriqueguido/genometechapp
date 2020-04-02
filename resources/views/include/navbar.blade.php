@@ -1,4 +1,4 @@
-{{--  --}}
+
 
 <header class="header trans_400">
     <div class="header_content d-flex flex-row align-items-center jusity-content-start trans_400">
@@ -69,7 +69,6 @@
             <li><a href="{{ url('/') }}">Home</a></li>
             <li><a href="about.html">About us</a></li>
             <li><a href="#services">Services</a></li>
-            {{-- <li><a href="blog.html">News</a></li> --}}
             <li><a href="{{ url('/contact') }}">Contact</a></li>
         </ul>
     </nav>
