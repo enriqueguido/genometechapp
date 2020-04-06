@@ -196,8 +196,40 @@
     height: 43px;
   }
 
+/***************************
+2. Home Page Mobile
+****************************/
+
+@media only screen and (max-width: 767px) {
+  /* For mobile phones: */
+  .logo-genome {
+    height: 47px;
+    margin-top: -4px;
+    margin-right: -20px;
+  }
+
+	.logo a > div:first-child
+	{
+		font-size: 17px;
+  }
+  
+  .logo-name-sectn {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 0.75;
+    color: #353535;
+    padding-top: 6px;
+  }
+
+  .logo a > div:last-child {
+    font-size: 7px;
+  }
+}
+
+
+
 /*****************************
-2. Contact Page
+3. Contact Page
 ******************************/
 
 
