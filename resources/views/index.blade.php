@@ -258,7 +258,7 @@
 
 								<!-- Why List Item -->
 								<div class="icon_container icon_container_orange d-flex flex-column align-items-center justify-content-center align-left margin-top">
-									<div class="icon"><img src="images/icon_2.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+									<div class="icon icon-opc"><img src="images/doc-overall.svg"></div>
 								</div>
 								<li class="d-flex flex-row align-items-center justify-content-start">
 									<div class="why_list_content">
@@ -271,7 +271,7 @@
 
 								<!-- Why List Item -->
 								<div class="icon_container icon_container_orange d-flex flex-column align-items-center justify-content-center align-left margin-top">
-									<div class="icon"><img src="images/icon_3.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+									<div class="icon icon-omro"><img src="images/calendar-white.svg"></div>
 								</div>
 								<li class="d-flex flex-row align-items-center justify-content-start">
 									<div class="why_list_content">
@@ -327,7 +327,7 @@
 					<div class="service text-center">
 						<div class="service">
 							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
-								<div class="icon"><img src="images/icon_4.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+								<div class="icon icon-hws"><img src="images/monitor-white.svg"></div>
 							</div>
 							<div class="service_title">Health &amp; Wellness Screening</div>
 							<div class="service_text">
@@ -344,7 +344,7 @@
 					<div class="service text-center">
 						<div class="service">
 							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
-								<div class="icon"><img src="images/icon_5.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+								<div class="icon icon-hcs"><img src="images/cells-white.svg"></div>
 							</div>
 							<div class="service_title">Hereditary Cancer Screening</div>
 							<div class="service_text">
@@ -360,7 +360,7 @@
 					<div class="service text-center">
 						<div class="service">
 							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
-								<div class="icon"><img src="images/icon_6.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+								<div class="icon icon-pt"><img src="images/paper-white.svg"></div>
 							</div>
 							<div class="service_title">Pharmacogenetic Testing</div>
 							<div class="service_text">
@@ -375,7 +375,7 @@
 					<div class="service text-center">
 						<div class="service">
 							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
-								<div class="icon"><img src="images/icon_7.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+								<div class="icon"><img src="images/icon_7.svg"></div>
 							</div>
 							<div class="service_title">Carrier Screening</div>
 							<div class="service_text">
@@ -391,7 +391,7 @@
 					<div class="service text-center">
 						<div class="service">
 							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
-								<div class="icon"><img src="images/icon_8.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+								<div class="icon"><img src="images/icon_8.svg"></div>
 							</div>
 							<div class="service_title">Toxicology</div>
 							<div class="service_text">
@@ -424,7 +424,7 @@
 					<div class="service text-center">
 						<div class="service">
 							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
-								<div class="icon"><img src="images/icon_3.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+								<div class="icon icon-ns"><img src="images/hosp-receptionist-white.svg"></div>
 							</div>
 							<div class="service_title">NIPT Screening</div>
 							<div class="service_text">
@@ -441,7 +441,7 @@
 					<div class="service text-center">
 						<div class="service">
 							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
-								<div class="icon"><img src="images/icon_3.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+								<div class="icon icon-fpd"><img src="images/magnifier-white.svg"></div>
 							</div>
 							<div class="service_title">Fungal Pathogen Detection</div>
 							<div class="service_text">
@@ -456,7 +456,7 @@
 					<div class="service text-center">
 						<div class="service">
 							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
-								<div class="icon"><img src="images/icon_3.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+								<div class="icon icon-padp"><img src="images/man-at-table.svg" style="width:44px;height:50px;"></div>
 							</div>
 							<div class="service_title">Parkinson's, Alzheimer, &amp; Dementia Panel</div>
 							<div class="service_text">

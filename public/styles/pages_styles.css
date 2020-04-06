@@ -148,6 +148,54 @@
     margin-top: 10px;
   }
 
+  .icon-padp 
+  {
+    width: 44px !important;
+    height: 50px !important;
+  }
+
+  .icon-hws 
+  {
+    width: 43px;
+    height: 40px;
+  }
+
+  .icon-hcs 
+  {
+    width: 60px;
+    height: 38px;
+  }
+
+  .icon-pt 
+  {
+    width: 42px;
+    height: 43px;
+  }
+
+  .icon-ns 
+  {
+    width: 45px;
+    height: 46px;
+  }
+
+  .icon-fpd 
+  {
+    width: 47px;
+    height: 46px;
+  }
+
+  .icon-opc 
+  {
+    width: 48px;
+    height: 48px;
+  }
+
+  .icon-omro 
+  {
+    width: 43px;
+    height: 43px;
+  }
+
 /*****************************
 2. Contact Page
 ******************************/
