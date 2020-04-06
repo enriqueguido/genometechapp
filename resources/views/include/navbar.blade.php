@@ -9,13 +9,13 @@
         </a>
         <div class="logo">
         <a href="{{ url('/') }}">
-                <div class="logo-mobile">
+                <div>
                     Genome
                         {{-- <span> --}}
                             {{-- Technologies --}}
                         {{-- </span> --}}
                 </div>
-                <div class="logo-name-sectn logo-mobile">
+                <div class="logo-name-sectn ">
                     Technologies
                 </div>
                 <div>Personalized Medicine</div>

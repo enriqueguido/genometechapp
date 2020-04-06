@@ -501,7 +501,7 @@ section
 	right: -350px;
 	width: 350px;
 	height: 100vh;
-	background: #57ccc3;
+	background: #287cbc;
 	z-index: 102;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -573,7 +573,7 @@ section
 }
 .menu_close:hover div
 {
-    background: #1befc5;
+    background: #fe7701;
 }
 .menu_nav
 {
@@ -591,7 +591,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #1befc5;
+	color: #fe7701;
 }
 .menu_social
 {
