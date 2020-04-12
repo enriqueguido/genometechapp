@@ -28,7 +28,7 @@
             <ul class="d-flex flex-row align-items-center justify-content-start">
                 <li class="active"><a href="{{ url('/') }}">Home</a></li>
                 <li><a href="about">About us</a></li>
-                <li><a href="#services">Services</a></li>
+                <li><a href="{{ url('/#services') }}">Services</a></li>
                 {{-- <li><a href="blog.html">News</a></li> --}}
             <li><a href="{{ url('/contact') }}">Contact</a></li>
             </ul>
@@ -68,7 +68,7 @@
         <ul>
             <li><a href="{{ url('/') }}">Home</a></li>
             <li><a href="about.html">About us</a></li>
-            <li><a href="#services">Services</a></li>
+            <li><a href="{{ url('/#services') }}">Services</a></li>
             <li><a href="{{ url('/contact') }}">Contact</a></li>
         </ul>
     </nav>

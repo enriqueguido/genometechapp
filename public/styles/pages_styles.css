@@ -361,6 +361,11 @@
   {
     padding-left: 15px !important;
   }
+
+  .align-items-start {
+    /* -ms-flex-align: start!important; */
+    align-items: center !important;
+  }
 }
 
 /* Portrait iPad Pro */
