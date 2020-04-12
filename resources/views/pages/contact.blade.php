@@ -128,10 +128,10 @@
 									<div>Address</div>
 									<div>1234 Some ST, NY 931</div>
 								</li>
-								<li class="d-flex flex-row align-items-start justify-content-start">
+								{{-- <li class="d-flex flex-row align-items-start justify-content-start">
 									<div>Phone</div>
 									<div>+53 345 7953 32453</div>
-								</li>
+								</li> --}}
 								<li class="d-flex flex-row align-items-start justify-content-start">
 									<div>E-mail</div>
 									<div>yourmail@gmail.com</div>

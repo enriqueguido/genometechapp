@@ -108,99 +108,120 @@
     bottom: 0;
     background: #fe9845;
     /* z-index: -1 */
-  }
+}
 
-  .footer_logo_name 
-  {
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 0.75;
-    color: #FFFFFF;
-    margin-top: 10px;
-    text-align: center;
-  }
+.footer_logo_name 
+{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 0.75;
+  color: #FFFFFF;
+  margin-top: 10px;
+  text-align: center;
+}
 
-  .logo-genome-footer 
-  {
-    height: 85px;
-    margin-bottom: -75px;
-    margin-left: -12px;
-  }
+.logo-genome-footer 
+{
+  height: 85px;
+  margin-bottom: -75px;
+  margin-left: -12px;
+}
 
-  .cont-info-pad 
-  {
-      padding-left: 45px !important;
-  }
+.cont-info-pad 
+{
+    padding-left: 45px !important;
+}
 
-  .img-hnw 
-  {
-      height: 812px;
-      width: 649px;
-  }
+.img-hnw 
+{
+    height: 812px;
+    width: 649px;
+}
 
-  .align-left 
-  {
-    float: left !important;
-  }
+.align-left 
+{
+  float: left !important;
+}
 
-  .margin-top 
-  {
-    margin-top: 10px;
-  }
+.margin-top 
+{
+  margin-top: 10px;
+}
 
-  .icon-padp 
-  {
-    width: 44px !important;
-    height: 50px !important;
-  }
+.icon-padp 
+{
+  width: 44px !important;
+  height: 50px !important;
+}
 
-  .icon-hws 
-  {
-    width: 43px;
-    height: 40px;
-  }
+.icon-hws 
+{
+  width: 43px;
+  height: 40px;
+}
 
-  .icon-hcs 
-  {
-    width: 60px;
-    height: 38px;
-  }
+.icon-hcs 
+{
+  width: 60px;
+  height: 38px;
+}
 
-  .icon-pt 
-  {
-    width: 42px;
-    height: 43px;
-  }
+.icon-pt 
+{
+  width: 42px;
+  height: 43px;
+}
 
-  .icon-ns 
-  {
-    width: 45px;
-    height: 46px;
-  }
+.icon-ns 
+{
+  width: 45px;
+  height: 46px;
+}
 
-  .icon-fpd 
-  {
-    width: 47px;
-    height: 46px;
-  }
+.icon-fpd 
+{
+  width: 47px;
+  height: 46px;
+}
 
-  .icon-opc 
-  {
-    width: 48px;
-    height: 48px;
-  }
+.icon-opc 
+{
+  width: 48px;
+  height: 48px;
+}
 
-  .icon-omro 
-  {
-    width: 43px;
-    height: 43px;
-  }
+.icon-omro 
+{
+  width: 43px;
+  height: 43px;
+}
+
+.mobile-menu-social ul li a i 
+{
+  font-size: 16px;
+  color: #fe7701;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.mobile-menu-social ul li:hover
+{
+	background: #fe7701;
+}
+.mobile-menu-social ul li:hover a i
+{
+	color: #FFFFFF;
+}
 
 /***************************
 2. Home Page Mobile
 ****************************/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) 
+{
   /* For mobile phones: */
   .logo-genome {
     height: 47px;
@@ -224,8 +245,152 @@
   .logo a > div:last-child {
     font-size: 7px;
   }
+
+}
+/* Iphone 5 */
+/* @media only screen and (max-width: 320px) 
+{
+  .menu.active {
+    right: -58px;
+  }
+
+} */
+/* Galaxy */
+@media screen and (max-width: 360px) and (min-width: 321px)
+{
+  .intro_form_title 
+  {
+    width: 330px;
+  }
+
+  .logo-genome-footer {
+    margin-left: 25px;
+  }
+
+  .footer_location 
+  {
+    padding-left: 30px;
+  }
+}
+/* Iphone 5 */
+@media only screen and (max-width: 320px) 
+{
+  .intro_form_title 
+  {
+    width: 290px;
+  }
+
+  .intro_input 
+  {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+
+  .logo-genome-footer {
+    margin-left: 2px;
+  }
+
+  .menu.active {
+    right: -58px;
+  }
+
+  .footer_location 
+  {
+    padding-left: 30px;
+  }
+
+  .button a {
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+}
+/* Pixel */
+@media screen and (max-width: 414px) and (min-width: 376px)
+{
+  .intro_form_title 
+  {
+    width: 382px;
+  }
+
+  .logo-genome-footer {
+    margin-left: 48px;
+  }
+
+  .footer_location 
+  {
+    padding-left: 30px;
+  }
+}
+/* Iphone 6/7/8, 6/7/8 Plus & X */
+@media screen and (max-width: 375px) and (min-width: 361px)
+{
+  .intro_form_title 
+  {
+    width: 345px;
+  }
+
+  .logo-genome-footer 
+  {
+    margin-left: 30px;
+  }
+
+  .footer_location 
+  {
+    padding-left: 30px;
+  }
+}
+/* Ipad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
+{
+  .logo-genome-footer 
+  {
+    margin-left: -37px;
+  }
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) 
+{
+  .logo-genome-footer 
+  {
+    height: 95px;
+    margin-bottom: -75px;
+    margin-left: 195px;
+  }
+
+  .cont-info-pad 
+  {
+    padding-left: 15px !important;
+  }
+}
+
+/* Portrait iPad Pro */
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait)
+  {
+    .logo-genome-footer {
+      margin-left: -44px;
+    }
+
+    .home_overlay img {
+      max-width: 101%;
+      margin-bottom: -1px;
+    }
+  }
+
+  /* Landscape iPad Pro */
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape)
+  {
+
+  }
 
 
 /*****************************

@@ -75,9 +75,9 @@
     <div class="menu_extra">
         <div class="menu_link">Mo - Sat: 8:00am - 9:00pm</div>
         <div class="menu_link">+34 586 778 8892</div>
-        <div class="menu_link"><a href="#">Make an appointment</a></div>
+        <div class="menu_link"><a href="#">Give us a call!</a></div>
     </div>
-    <div class="social menu_social">
+    <div class="social menu_social mobile-menu-social">
         <ul class="d-flex flex-row align-items-center justify-content-start">
             <li><a href="#"><i class="fa fa-instagram insta-color" aria-hidden="true"></i></a></li>
             <li><a href="#"><i class="fa fa-facebook face-color" aria-hidden="true"></i></a></li>
