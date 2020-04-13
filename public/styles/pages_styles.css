@@ -246,6 +246,11 @@
     font-size: 7px;
   }
 
+  .cta_phone 
+  {
+    color: #FFFFFF !important;
+  }
+
 }
 /* Iphone 5 */
 /* @media only screen and (max-width: 320px) 
@@ -270,6 +275,11 @@
   .footer_location 
   {
     padding-left: 30px;
+  }
+
+  .cta_phone 
+  {
+    color: #FFFFFF !important;
   }
 }
 /* Iphone 5 */
@@ -303,6 +313,11 @@
     padding-left: 21px;
     padding-right: 21px;
   }
+
+  .cta_phone 
+  {
+    color: #FFFFFF !important;
+  }
 }
 /* Pixel */
 @media screen and (max-width: 414px) and (min-width: 376px)
@@ -319,6 +334,11 @@
   .footer_location 
   {
     padding-left: 30px;
+  }
+
+  .cta_phone 
+  {
+    color: #FFFFFF !important;
   }
 }
 /* Iphone 6/7/8, 6/7/8 Plus & X */
@@ -338,6 +358,10 @@
   {
     padding-left: 30px;
   }
+  .cta_phone 
+  {
+    color: #FFFFFF !important;
+  }
 }
 /* Ipad */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
@@ -345,6 +369,11 @@
   .logo-genome-footer 
   {
     margin-left: -37px;
+  }
+
+  .cta_phone 
+  {
+    color: #FFFFFF !important;
   }
 }
 
@@ -366,6 +395,11 @@
     /* -ms-flex-align: start!important; */
     align-items: center !important;
   }
+
+  .cta_phone 
+  {
+    color: #FFFFFF !important;
+  }
 }
 
 /* Portrait iPad Pro */
@@ -383,6 +417,11 @@
     .home_overlay img {
       max-width: 101%;
       margin-bottom: -1px;
+    }
+
+    .cta_phone 
+    {
+      color: #FFFFFF !important;
     }
   }
 

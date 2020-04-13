@@ -18,7 +18,7 @@
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 <link rel="stylesheet" type="text/css" href="styles/pages_styles.css">
-<link rel="icon" href="img/icon.png">
+<link rel="icon" href="/images/logo-icon.png"> 
 </head>
 <body>
 
