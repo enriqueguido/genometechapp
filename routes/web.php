@@ -21,9 +21,9 @@ Route::get('/', function () {
 /*
 | Contact Us Route
 */ 
-Route::get('/contact', function (){
-    return view('pages/contact');
-});
+Route::get('/contact', 'SendEmailController@contact');
+
+Route::post('/contact/send', 'SendEmailController@send');
 
 
 Route::group(['prefix' => 'admin'], function () {
