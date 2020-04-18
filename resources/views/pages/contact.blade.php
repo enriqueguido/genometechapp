@@ -18,6 +18,7 @@
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 <link rel="stylesheet" type="text/css" href="styles/pages_styles.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="icon" href="/images/logo-icon.png"> 
 </head>
 <body>
@@ -153,19 +154,19 @@
 
 			<div class="intro_col">
 				<div class="intro_form_container contact_form_margin">
-					<div class="intro_form_title">Send us a message</div>
-					@if (count($errors) > 0)
-						<div class="alert alert-danger" role="alert">
-							@foreach ($errors->all as $error)
-								<li>{{ $error }}</li>
-							@endforeach
-						</div>
+					{{-- @if (count($errors) > 0)
+					<div class="alert alert-danger" role="alert">
+						@foreach ($errors->all as $error)
+							<li>{{ $error }}</li>
+						@endforeach
+					</div>
 					@endif
 					@if ($message = Session::get('seccess'))
 						<div class="alert alert-success" role="alert">
 						<strong> {{ $message }} </strong>
 						</div>
-					@endif
+					@endif --}}
+					<div class="intro_form_title">Send us a message</div>
 					<form method="POST" action="{{ url('contact/send') }}" class="intro_form" id="intro_form">
 						{{ csrf_field() }}
 						<div class="d-flex flex-row align-items-start justify-content-between flex-wrap">
