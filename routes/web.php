@@ -14,13 +14,12 @@
 /*
 | Home Ruote 
 */
-// Route::get('/', function () {
-//     return view('index');
-// });
 
 Route::get('/', 'ScheduleCallController@index');
 
 Route::post('/send', 'ScheduleCallController@send');
+
+Route::post('/subscribe', 'SubscribeController@send');
 
 /*
 | Contact Us Routes

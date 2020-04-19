@@ -11,14 +11,16 @@ class SubscribeMail extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $data;
+
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($data)
     {
-        //
+        $this->data = $data;
     }
 
     /**
@@ -28,6 +30,6 @@ class SubscribeMail extends Mailable
      */
     public function build()
     {
-        return $this->view('view.name');
+        return $this->from('codeblock.life@gmail.com')->subject('New Newsletter Subscription')->view('mailable/dynamic_subscription_template')->with('data', $this->data);
     }
 }

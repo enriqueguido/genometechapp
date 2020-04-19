@@ -219,10 +219,23 @@
 			</div>
 			<div class="row newsletter_row">
 				<div class="col-lg-8 offset-lg-2">
+					<?php if (count($errors) > 0): ?>
+					<div class="alert alert-danger" role="alert">
+						<?php foreach ($errors->all() as $error): ?>
+							<span> {{ $error }} </span>
+						<?php endforeach; ?>
+					</div>
+					<?php endif; ?>
+					<?php if ($message = Session::get('success-subscribe')): ?>
+						<div class="alert alert-success" role="alert">
+							<span> {{ $message }} </span>
+						</div>
+					<?php endif; ?>
 					<div class="newsletter_form_container">
-						<form action="#" id="newsleter_form" class="newsletter_form">
-							<input type="email" class="newsletter_input" placeholder="Your E-mail" required="required">
-							<button class="newsletter_button">subscribe</button>
+					<form method="POST" action="{{ url('/subscribe') }}" id="newsleter_form" class="newsletter_form">
+						{{ csrf_field() }}
+							<input type="email" name="email_subscribe" class="newsletter_input" placeholder="Your E-mail" required="required">
+							<button type="submit" name="send" class="newsletter_button">subscribe</button>
 						</form>
 					</div>
 				</div>
