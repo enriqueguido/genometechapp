@@ -476,14 +476,15 @@
 					<div class="extra_container d-flex flex-row align-items-start justify-content-end">
 						<div class="extra_content">
 							<div class="extra_disc d-flex flex-row align-items-end justify-content-start">
-								<div>10<span>%</span></div>
-								<div>Discount</div>
+								{{-- <div>Increase Revenue<span>%</span></div>  --}}
+								<div class="call-to-action">Increase Revenue</div> 
+								{{-- <div>Increase Revenue</div> --}}
 							</div>
 							<div class="extra_title">Call us Now</div>
 							<div class="extra_text">
-								<p>Give us a call and tell us how you found our company to get a promotional dicsount and other perks when you signup.</p>
+								<p>Give us a call so we can discuss how we can help you increase patient revenue utilizing our tools and techniques.</p>
 							</div>
-							<div class="button button_1 extra_link trans_200"><a href="#">call us</a></div>
+						<div class="button button_1 extra_link trans_200"><a href=" {{ url('/contact') }} ">call us</a></div>
 						</div>
 					</div>
 				</div>
