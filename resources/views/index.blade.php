@@ -361,7 +361,7 @@
 							</div>
 							<div class="service_title">Pharmacogenetic Testing</div>
 							<div class="service_text">
-								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+								<p>It is truly the combination of both genetic and non-genetic factors that affect whether a patient remains compliant and will respond to your care plan.</p>
 							</div>
 						</div>
 					</div>
@@ -410,7 +410,8 @@
 							</div>
 							<div class="service_title">Respiratory Pathogen Detection</div>
 							<div class="service_text">
-								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+								<p>Lower Respiratory Track Infections along with Influenza, are the most common causes of death in the 
+									United States.</p>
 							</div>
 						</div>
 					</div>
@@ -425,9 +426,7 @@
 							</div>
 							<div class="service_title">NIPT Screening</div>
 							<div class="service_text">
-								<p>Lower Respiratory Track Infections along with Influenza, are the most common causes of death in the 
-									United States. Identifying the  
-								</p>
+								<p>NIPT screening looks at DNA from your baby's placenta in a sample of your blood to indentify wheter you are at increased risk of giving birth to a child with genetic disorders.</p>
 							</div>
 						</div>
 					</div>
@@ -442,7 +441,7 @@
 							</div>
 							<div class="service_title">Fungal Pathogen Detection</div>
 							<div class="service_text">
-								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+								<p>We provide a qPCR-based test with a resistance option for rapid detection and speciation of fungi most commonly observed to harm the foot.</p>
 							</div>
 						</div>
 					</div>
@@ -457,7 +456,7 @@
 							</div>
 							<div class="service_title">Parkinson's, Alzheimer, &amp; Dementia Panel</div>
 							<div class="service_text">
-								<p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feugiat bibendum orci, non elementum urna.</p>
+								<p>this panel examins 35 genes associated with an increased risk of developing neurodegenerative conditions.</p>
 							</div>
 						</div>
 					</div>
