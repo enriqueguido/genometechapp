@@ -251,11 +251,6 @@
     color: #FFFFFF !important;
   }
 
-  .align-items-start 
-  {
-    align-items: center !important;
-  }
-
 }
 /* Iphone 5 */
 /* @media only screen and (max-width: 320px) 
@@ -285,11 +280,6 @@
   .cta_phone 
   {
     color: #FFFFFF !important;
-  }
-
-  .align-items-start 
-  {
-    align-items: center !important;
   }
 }
 /* Iphone 5 */
@@ -328,11 +318,6 @@
   {
     color: #FFFFFF !important;
   }
-
-  .align-items-start 
-  {
-    align-items: center !important;
-  }
 }
 /* Pixel */
 @media screen and (max-width: 414px) and (min-width: 376px)
@@ -354,11 +339,6 @@
   .cta_phone 
   {
     color: #FFFFFF !important;
-  }
-
-  .align-items-start 
-  {
-    align-items: center !important;
   }
 }
 /* Iphone 6/7/8, 6/7/8 Plus & X */
@@ -382,11 +362,6 @@
   {
     color: #FFFFFF !important;
   }
-
-  .align-items-start 
-  {
-    align-items: center !important;
-  }
 }
 /* Ipad */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
@@ -399,11 +374,6 @@
   .cta_phone 
   {
     color: #FFFFFF !important;
-  }
-
-  .align-items-start 
-  {
-    align-items: center !important;
   }
 }
 
@@ -430,7 +400,7 @@
   {
     color: #FFFFFF !important;
   }
-
+  
     .align-items-start 
   {
     align-items: center !important;
