@@ -182,30 +182,27 @@
 				<div class="col-lg-6 intro_col">
 					<div class="intro_form_container">
 						<div class="intro_form_title">Schedule a Call</div>
-						<form action="#" class="intro_form" id="intro_form">
-							<div class="d-flex flex-row align-items-start justify-content-between flex-wrap">
-								<input type="text" class="intro_input" placeholder="Your Name" required="required">
-								<input type="email" class="intro_input" placeholder="Your E-mail" required="required">
-								<input type="tel" class="intro_input" placeholder="Your Phone" required="required">
-								<input type="text" id="datepicker" class="intro_input datepicker" placeholder="Date" required="required">
-								{{-- <select class="intro_select intro_input" required>
-									<option disabled="" selected="" value="">Speciality</option>
-									<option>Speciality 1</option>
-									<option>Speciality 2</option>
-									<option>Speciality 3</option>
-									<option>Speciality 4</option>
-									<option>Speciality 5</option>
-								</select> --}}
-								{{-- <select class="intro_select intro_input" required="required">
-										<option disabled="" selected="" value="">Doctor</option>
-										<option>Doctor 1</option>
-										<option>Doctor 2</option>
-										<option>Doctor 3</option>
-										<option>Doctor 4</option>
-										<option>Doctor 5</option>
-									</select> --}}
+						<?php if (count($errors) > 0): ?>
+							<div class="alert alert-danger" role="alert">
+								<?php foreach ($errors->all() as $error): ?>
+									<span> {{ $error }} </span>
+								<?php endforeach; ?>
 							</div>
-							<button class="button button_1 intro_button trans_200">Schedule A Call</button>
+						<?php endif; ?>
+						<?php if ($message = Session::get('success')): ?>
+							<div class="alert alert-success" role="alert">
+								<span> {{ $message }} </span>
+							</div>
+						<?php endif; ?>
+						<form method="POST" action="{{ url('/send') }}" class="intro_form" id="intro_form">
+							{{ csrf_field() }}
+							<div class="d-flex flex-row align-items-start justify-content-between flex-wrap">
+								<input type="text" class="intro_input" placeholder="Your Name" name="name_index" required="required">
+								<input type="email" class="intro_input" placeholder="Your E-mail" name="email_index" required="required">
+								<input type="tel" class="intro_input" placeholder="Your Phone" name="phone_num_index" required="required">
+								<input type="text" id="datepicker" class="intro_input datepicker" name="date_index" placeholder="Date" required="required">
+							</div>
+							<button type="submit" name="send" class="button button_1 intro_button trans_200">Schedule A Call</button>
 						</form>
 					</div>
 				</div>

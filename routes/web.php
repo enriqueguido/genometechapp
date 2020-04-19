@@ -14,20 +14,25 @@
 /*
 | Home Ruote 
 */
-Route::get('/', function () {
-    return view('index');
-});
+// Route::get('/', function () {
+//     return view('index');
+// });
+
+Route::get('/', 'ScheduleCallController@index');
+
+Route::post('/send', 'ScheduleCallController@send');
 
 /*
-| Contact Us Route
+| Contact Us Routes
 */ 
-// Route::get('/contact', function (){
-//     return view('pages/contact');
-// });
 
 Route::get('/contact', 'SendEmailController@contact');
 
 Route::post('/contact/send', 'SendEmailController@send');
+
+/*
+| Voyager Admin Panel Routes
+*/ 
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
