@@ -21,10 +21,13 @@ Route::get('/', function () {
 /*
 | Contact Us Route
 */ 
-Route::get('/contact', function (){
-    return view('pages/contact');
-});
+// Route::get('/contact', function (){
+//     return view('pages/contact');
+// });
 
+Route::get('/contact', 'SendMessageController@contact');
+
+Route::post('/contact/send', 'SendMessageController@send');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

@@ -154,16 +154,24 @@
 
 			<div class="intro_col">
 				<div class="intro_form_container contact_form_margin">
-					<div class="intro_form_title">Send us a message</div>
-					<form action="#" class="intro_form" id="intro_form">
+					<?php if (count($errors) > 0): ?>
+						<div class="alert alert-success" role="alert">
+							<?php foreach ($errors->all() as $error): ?>
+								<span> {{ $error }} </span>
+							<?php endforeach; ?>
+						</div>
+					<?php endif; ?>
+				<div class="intro_form_title">Send us a message</div>
+				<form method="POST" action="{{ url('/contact/send') }}" class="intro_form" id="intro_form">
+					{{ csrf_field() }}
 						<div class="d-flex flex-row align-items-start justify-content-between flex-wrap">
-							<input type="text" class="intro_input" placeholder="Your Name" required="required">
-							<input type="email" class="intro_input" placeholder="Your E-mail" required="required">
-							<textarea type="text" class="intro_txt_area" placeholder="Your Message..." required="required"></textarea>
+							<input type="text" name="name_contact" class="intro_input" placeholder="Your Name" required="required">
+							<input type="email" name="email_contact" class="intro_input" placeholder="Your E-mail" required="required">
+							<textarea type="text" name="message_contact" class="intro_txt_area" placeholder="Your Message..." required="required"></textarea>
 							{{-- <input type="tel" class="intro_input" placeholder="Your Phone" required="required"> --}}
 							{{-- <input type="text" id="datepicker" class="intro_input datepicker" placeholder="Date" required="required"> --}}
 						</div>
-						<button class="button button_1 intro_button trans_200">Send us a message</button>
+						<button type="submit" name="send" class="button button_1 intro_button trans_200">Send us a message</button>
 					</form>
 				</div>
 			</div>
