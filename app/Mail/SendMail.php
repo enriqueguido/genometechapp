@@ -7,18 +7,20 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class SendMessage extends Mailable
+class SendMail extends Mailable
 {
     use Queueable, SerializesModels;
+
+    public $data;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($data)
     {
-        //
+        $this->data = $data;
     }
 
     /**
@@ -28,6 +30,6 @@ class SendMessage extends Mailable
      */
     public function build()
     {
-        return $this->view('view.name');
+        return $this->from('codeblock.life@gmail.com')->subject('New Customer Inquiry')->view('mailable/dynamic_message_template')->with('data', $this->data);
     }
 }

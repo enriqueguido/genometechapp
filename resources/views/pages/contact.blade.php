@@ -155,10 +155,15 @@
 			<div class="intro_col">
 				<div class="intro_form_container contact_form_margin">
 					<?php if (count($errors) > 0): ?>
-						<div class="alert alert-success" role="alert">
+						<div class="alert alert-danger" role="alert">
 							<?php foreach ($errors->all() as $error): ?>
 								<span> {{ $error }} </span>
 							<?php endforeach; ?>
+						</div>
+					<?php endif; ?>
+					<?php if ($message = Session::get('success')): ?>
+						<div class="alert alert-success" role="alert">
+							<span> {{ $message }} </span>
 						</div>
 					<?php endif; ?>
 				<div class="intro_form_title">Send us a message</div>
