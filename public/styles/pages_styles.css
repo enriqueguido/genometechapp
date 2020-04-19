@@ -333,6 +333,16 @@
   {
     align-items: center !important;
   }
+
+  .contact_content_title 
+  {
+    font-size: 27px;
+  }
+
+  .cta_text 
+  {
+    font-size: 13px;
+  }
 }
 /* Pixel */
 @media screen and (max-width: 414px) and (min-width: 376px)

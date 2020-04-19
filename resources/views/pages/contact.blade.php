@@ -33,7 +33,8 @@
 	<!-- Home -->
 
 	<div class="home d-flex flex-column align-items-start justify-content-end">
-		<div class="parallax_background parallax-window" data-dark-overlay="7" data-parallax="scroll" data-image-src="images/new-york.jpg" data-speed="0.8"></div>
+		{{-- <div class="parallax_background parallax-window" data-dark-overlay="7" data-parallax="scroll" data-image-src="images/new-york.jpg" data-speed="0.8"></div> --}}
+		<div class="background_image" data-dark-overlay="6" style="background-image:url(images/new-york.jpg)"></div>
 		<div class="home_overlay"><img src="images/home_overlay_blue.png" alt=""></div>
 		<div class="home_container">
 			<div class="container">

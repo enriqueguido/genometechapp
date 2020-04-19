@@ -42,7 +42,7 @@
             <div class="header_phone">+34 586 778 8892</div>
 
             <!-- Appointment Button -->
-            <div class="button button_1 header_button"><a href="#">Call Us</a></div>
+        <div class="button button_1 header_button"><a href="{{ url('/contact') }}">Call Us</a></div>
 
             <!-- Header Social -->
             <div class="social header_social">
@@ -75,7 +75,7 @@
     <div class="menu_extra">
         <div class="menu_link">Mo - Sat: 8:00am - 9:00pm</div>
         <div class="menu_link">+34 586 778 8892</div>
-        <div class="menu_link"><a href="#">Give us a call!</a></div>
+        <div class="menu_link"><a href="{{ url('/contact') }}">Give us a call!</a></div>
     </div>
     <div class="social menu_social mobile-menu-social">
         <ul class="d-flex flex-row align-items-center justify-content-start">
