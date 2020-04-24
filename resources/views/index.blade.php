@@ -492,6 +492,132 @@
 		</div>
 	</div>
 
+	<!-- About Us -->
+
+	<div class="intro">
+		<div class="row">
+			<div class="col text-center about_text_margin">
+				<div class="section_title_container">
+					<div class="section_subtitle about_section_subtitle">Genome Technologies</div>
+					<div class="section_title"><h2>About Us</h2></div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+
+				<!-- Intro Content -->
+				<div class="col-lg-6 intro_col about_text_intro">
+					<div class="intro_content">
+						<div class="section_title_container">
+							<div class="section_subtitle about_align sec_sub_title_color">Genome Technologies</div>
+							<div class="section_title about_align"><h2>Lorem Ipsum Dolor Sit Amet</h2></div>
+						</div>
+						<div class="intro_text">
+							<p class="about_text about_align">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+								et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+								aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+								dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+								officia deserunt mollit anim id est laborum.
+							</p>
+						</div>
+						<div class="about_info about_info_right">
+							<ul>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div>Text</div>
+									<div>Second text area</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div>Text</div>
+									<div>Second text area</div>
+								</li>
+							</ul>
+						</div>
+						<!-- Why List Item -->
+						{{-- <li class="d-flex flex-row align-items-center justify-content-start">
+							<div class="why_list_content">
+								<div class="why_list_title">Two prescription drug decision support tools</div>
+								<div class="why_list_text white_text">Improve medication efficacy, reduce risk, and increase patient compliance. 
+									Reduce costs and minimize patient frustration.
+								</div>
+							</div>
+						</li>
+
+						<!-- Why List Item -->
+						<div class="icon_container icon_container_orange d-flex flex-column align-items-center justify-content-center align-left margin-top">
+							<div class="icon icon-opc"><img src="images/doc-overall.svg"></div>
+						</div>
+						<li class="d-flex flex-row align-items-center justify-content-start">
+							<div class="why_list_content">
+								<div class="why_list_title">Optimal Personalized Care</div>
+								<div class="why_list_text white_text">We give medical professionals a total solution for medication risk management, 
+									with detailed findings and recommendations based on impact and severity.
+								</div>
+							</div>
+						</li> --}}
+					</div>
+				</div>
+
+				<!-- Intro Form -->
+				<div class="col-lg-6 intro_col">
+					<img src="images/photo-of-woman-holding-red-stethoscope.jpg" class="intro_photo_container" alt="">
+					{{-- <div class="intro_form_container">
+					</div> --}}
+				</div>
+
+			</div>
+		</div>
+	</div>
+	{{-- Opposite --}}
+
+	<div class="intro">
+		<div class="container">
+			<div class="row">
+
+				<!-- Intro Form -->
+				<div class="col-lg-6 intro_col">
+					<img src="images/scientist-in-laboratory.jpg" class="intro_photo_container" alt="">
+					{{-- <div class="intro_form_container">
+					</div> --}}
+				</div>
+
+				<!-- Intro Content -->
+				<div class="col-lg-6 intro_col about_text_intro">
+					<div class="intro_content">
+						<div class="section_title_container">
+							<div class="section_subtitle sec_sub_title_color">Genome Technologies</div>
+							<div class="section_title"><h2>Lorem Ipsum Dolor Sit Amet</h2></div>
+						</div>
+						<div class="intro_text">
+							<p class="about_text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+								et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+								aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+								dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+								officia deserunt mollit anim id est laborum.
+							</p>
+						</div>
+						<div class="about_info">
+							<ul>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div>Text</div>
+									<div>Second text area</div>
+								</li>
+								{{-- <li class="d-flex flex-row align-items-start justify-content-start">
+									<div>Phone</div>
+									<div>+53 345 7953 32453</div>
+								</li> --}}
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div>Text</div>
+									<div>Second text area</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<!-- Newsletter -->
 
 	<div class="newsletter">
