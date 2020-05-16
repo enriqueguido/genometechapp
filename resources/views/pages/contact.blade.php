@@ -117,9 +117,9 @@
 						</div>
 						<div class="contact_social">
 							<ul class="d-flex flex-row align-items-center justify-content-start center-content">
-								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 							</ul>
 						</div>
 					</div>
