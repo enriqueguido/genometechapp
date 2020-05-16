@@ -19,7 +19,9 @@
 								</a>								
 							</div>
 							<div class="footer_about_text">
-								<p>Nulla facilisi. Nulla egestas vel lacus sed interdum. Sed mollis, orci eleme ntum eleifend tempor, nunc libero porttitor tellus.</p>
+								<p>
+									At Genome Technologies we believe that Genetic mapping gives a Doctor a comprehensive blueprint into every patient.
+								</p>
 							</div>
 						</div>
 					</div>
@@ -29,9 +31,8 @@
 						<div class="footer_contact">
 							<div class="footer_title">Contact Info</div>
 							<ul class="contact_list">
-								<li>+53 345 7953 32453</li>
-								<li>yourmail@gmail.com</li>
-								<li>contact@gmail.com</li>
+								<li>315 - 720 - 8875</li>
+								<li>info@genometechnologies.org</li>
 							</ul>
 						</div>
 					</div>
@@ -43,7 +44,6 @@
 							<ul class="locations_list">
 								<li>
 									<div class="location_title">New York</div>
-									<div class="location_text">45 Creekside Lane, NY 931</div>
 								</li>
 							</ul>
 						</div>
@@ -56,23 +56,23 @@
 							<ul class="opening_hours_list">
 								<li class="d-flex flex-row align-items-start justify-content-start">
 									<div>Monday:</div>
-									<div class="ml-auto">8:00am - 9:00pm</div>
+									<div class="ml-auto">9:00am - 5:00pm</div>
 								</li>
 								<li class="d-flex flex-row align-items-start justify-content-start">
 									<div>Thuesday:</div>
-									<div class="ml-auto">8:00am - 9:00pm</div>
+									<div class="ml-auto">9:00am - 5:00pm</div>
 								</li>
 								<li class="d-flex flex-row align-items-start justify-content-start">
 									<div>Wednesday:</div>
-									<div class="ml-auto">8:00am - 9:00pm</div>
+									<div class="ml-auto">9:00am - 5:00pm</div>
 								</li>
 								<li class="d-flex flex-row align-items-start justify-content-start">
 									<div>Thursday:</div>
-									<div class="ml-auto">8:00am - 9:00pm</div>
+									<div class="ml-auto">9:00am - 5:00pm</div>
 								</li>
 								<li class="d-flex flex-row align-items-start justify-content-start">
 									<div>Friday:</div>
-									<div class="ml-auto">8:00am - 7:00pm</div>
+									<div class="ml-auto">9:00am - 5:00pm</div>
 								</li>
 							</ul>
 						</div>
@@ -92,7 +92,7 @@
 							<nav class="footer_nav ml-md-auto">
 								<ul class="d-flex flex-row align-items-center justify-content-start">
 									<li><a href="{{ url('/') }}">Home</a></li>
-									<li><a href="about.html">About us</a></li>
+									<li><a href="{{ url('/about') }}">About us</a></li>
 									<li><a href="{{ url('/#services') }}">Services</a></li>
 									{{-- <li><a href="blog.html">News</a></li> --}}
 									<li><a href="{{ url('/contact') }}">Contact</a></li>

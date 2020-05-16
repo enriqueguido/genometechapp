@@ -55,62 +55,38 @@
 	<div class="contact">
 		<div class="container">
 			<div class="row">
-
-
-				{{-- <div class="row google_map_row"> --}}
-					<div class="col">
-						
-						<!-- Contact Map -->
-	
-						<div class="contact_map">
-	
-							<!-- Google Map -->
-							
-							<div class="map">
-								<div id="google_map" class="google_map">
-									<div class="map_container">
-										<div id="map"></div>
-									</div>
-								</div>
-							</div>
-	
-						</div>
-	
-					</div>
-				{{-- </div> --}}
-
-				
+			<div class="col">
 				<!-- Contact Form -->
-				{{-- <div class="col-lg-6">
-					<div class="contact_form_container">
-						<div class="contact_form_title">Make an Appointment</div>
-						<form action="#" class="contact_form" id="contact_form">
-							<div class="d-flex flex-row align-items-start justify-content-between flex-wrap">
-								<input type="text" class="contact_input" placeholder="Your Name" required="required">
-								<input type="email" class="contact_input" placeholder="Your E-mail" required="required">
-								<input type="tel" class="contact_input" placeholder="Your Phone" required="required">
-								<select class="contact_select contact_input" required>
-									<option disabled="" selected="">Speciality</option>
-									<option>Speciality 1</option>
-									<option>Speciality 2</option>
-									<option>Speciality 3</option>
-									<option>Speciality 4</option>
-									<option>Speciality 5</option>
-								</select>
-								<select class="contact_select contact_input"required="required">
-										<option disabled="" selected="">Doctor</option>
-										<option>Doctor 1</option>
-										<option>Doctor 2</option>
-										<option>Doctor 3</option>
-										<option>Doctor 4</option>
-										<option>Doctor 5</option>
-									</select>
-								<input type="text" id="datepicker" class="contact_input datepicker" placeholder="Date" required="required">
+				<div class="intro_col">
+					<div class="intro_form_container contact_form_margin">
+						<?php if (count($errors) > 0): ?>
+							<div class="alert alert-danger" role="alert">
+								<?php foreach ($errors->all() as $error): ?>
+									<span> {{ $error }} </span>
+								<?php endforeach; ?>
 							</div>
-							<button class="button button_1 contact_button trans_200">make an appointment</button>
+						<?php endif; ?>
+						<?php if ($message = Session::get('success')): ?>
+							<div class="alert alert-success" role="alert">
+								<span> {{ $message }} </span>
+							</div>
+						<?php endif; ?>
+					<div class="intro_form_title">Send us a message</div>
+					<form method="POST" action="{{ url('/contact/send') }}" class="intro_form" id="intro_form">
+						{{ csrf_field() }}
+							<div class="d-flex flex-row align-items-start justify-content-between flex-wrap">
+								<input type="text" name="name_contact" class="intro_input" placeholder="Your Name" required="required">
+								<input type="email" name="email_contact" class="intro_input" placeholder="Your E-mail" required="required">
+								<textarea type="text" name="message_contact" class="intro_txt_area" placeholder="Your Message..." required="required"></textarea>
+								{{-- <input type="tel" class="intro_input" placeholder="Your Phone" required="required"> --}}
+								{{-- <input type="text" id="datepicker" class="intro_input datepicker" placeholder="Date" required="required"> --}}
+							</div>
+							<button type="submit" name="send" class="button button_1 intro_button trans_200">Send us a message</button>
 						</form>
 					</div>
-				</div> --}}
+				</div>
+				<!-- Contact Form End -->
+			</div>
 
 				<!-- Contact Content -->
 				<div class="col-lg-5 offset-lg-1 contact_col">
@@ -121,21 +97,21 @@
 						</div>
 						<div class="direct_line d-flex flex-row align-items-center justify-content-start">
 							<div class="direct_line_title text-center">Direct Line</div>
-							<div class="direct_line_num text-center">+53 345 7953 324</div>
+							<div class="direct_line_num text-center">315 - 720 - 8875</div>
 						</div>
 						<div class="contact_info">
 							<ul>
-								<li class="d-flex flex-row align-items-start justify-content-start">
+								{{-- <li class="d-flex flex-row align-items-start justify-content-start">
 									<div>Address</div>
 									<div>1234 Some ST, NY 931</div>
-								</li>
+								</li> --}}
 								{{-- <li class="d-flex flex-row align-items-start justify-content-start">
 									<div>Phone</div>
 									<div>+53 345 7953 32453</div>
 								</li> --}}
 								<li class="d-flex flex-row align-items-start justify-content-start">
 									<div>E-mail</div>
-									<div>yourmail@gmail.com</div>
+									<div>info@genometechnologies.org</div>
 								</li>
 							</ul>
 						</div>
@@ -149,61 +125,6 @@
 					</div>
 				</div>
 			</div>
-
-		<!-- Contact Form -->
-
-			<div class="intro_col">
-				<div class="intro_form_container contact_form_margin">
-					<?php if (count($errors) > 0): ?>
-						<div class="alert alert-danger" role="alert">
-							<?php foreach ($errors->all() as $error): ?>
-								<span> {{ $error }} </span>
-							<?php endforeach; ?>
-						</div>
-					<?php endif; ?>
-					<?php if ($message = Session::get('success')): ?>
-						<div class="alert alert-success" role="alert">
-							<span> {{ $message }} </span>
-						</div>
-					<?php endif; ?>
-				<div class="intro_form_title">Send us a message</div>
-				<form method="POST" action="{{ url('/contact/send') }}" class="intro_form" id="intro_form">
-					{{ csrf_field() }}
-						<div class="d-flex flex-row align-items-start justify-content-between flex-wrap">
-							<input type="text" name="name_contact" class="intro_input" placeholder="Your Name" required="required">
-							<input type="email" name="email_contact" class="intro_input" placeholder="Your E-mail" required="required">
-							<textarea type="text" name="message_contact" class="intro_txt_area" placeholder="Your Message..." required="required"></textarea>
-							{{-- <input type="tel" class="intro_input" placeholder="Your Phone" required="required"> --}}
-							{{-- <input type="text" id="datepicker" class="intro_input datepicker" placeholder="Date" required="required"> --}}
-						</div>
-						<button type="submit" name="send" class="button button_1 intro_button trans_200">Send us a message</button>
-					</form>
-				</div>
-			</div>
-
-		<!-- Contact Form End -->
-		
-			{{-- <div class="row google_map_row">
-				<div class="col">
-					
-					<!-- Contact Map -->
-
-					<div class="contact_map">
-
-						<!-- Google Map -->
-						
-						<div class="map">
-							<div id="google_map" class="google_map">
-								<div class="map_container">
-									<div id="map"></div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-				</div>
-			</div> --}}
 		</div>
 	</div>
 

@@ -139,11 +139,11 @@
 							<div class="section_title"><h2>Empowering You Through Genomics</h2></div>
 						</div>
 						<div class="intro_text">
-							<p>Our tools assesses a patient's medication risk based on lifestyle and current drug regimen,
+							<p>
+								Are tools that assess a patients medication risk based on lifestyle and current drug regimen,
 								as well as provides advice on the benefits of pharmacogenomic testing.
 								Visualize medication risks against intended therapeutic goals—decrease 
-								adverse events while addressing medical intent. Let us help you increase revenue, 
-								while improving patient care. 
+								adverse events while addressing medical intent.
 							</p>
 						</div>
 						{{-- <div class="milestones">
@@ -477,12 +477,16 @@
 						<div class="extra_content">
 							<div class="extra_disc d-flex flex-row align-items-end justify-content-start">
 								{{-- <div>Increase Revenue<span>%</span></div>  --}}
-								<div class="call-to-action">Increase Revenue</div> 
+								<div class="call-to-action call-to-action-margin">We can help increase the quality of patient care</div> 
 								{{-- <div>Increase Revenue</div> --}}
 							</div>
 							<div class="extra_title">Call us Now</div>
 							<div class="extra_text">
-								<p>Give us a call so we can discuss how we can help you increase patient revenue utilizing our tools and techniques.</p>
+								<p>
+									Let our staff keep your practice up to date with
+									the most advanced  products and services our laboratories
+									have to offer.
+								</p>
 							</div>
 						<div class="button button_1 extra_link trans_200"><a href=" {{ url('/contact') }} ">call us</a></div>
 						</div>

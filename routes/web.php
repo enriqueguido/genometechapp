@@ -29,6 +29,16 @@ Route::get('/contact', 'SendEmailController@contact');
 
 Route::post('/contact/send', 'SendEmailController@send');
 
+
+/*
+| About Us Ruote 
+*/
+
+Route::get('/about', function()
+{
+    return View::make('/pages/aboutus');
+});
+
 /*
 | Voyager Admin Panel Routes
 */ 

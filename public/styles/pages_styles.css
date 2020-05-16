@@ -127,6 +127,11 @@
   margin-left: -12px;
 }
 
+/* .footer_content 
+{
+  align-items: center !important;
+} */
+
 .cont-info-pad 
 {
   padding-left: 45px !important;
@@ -346,6 +351,12 @@
 	padding-top: 136px;
 	box-shadow: 0px 25px 38px rgba(0,0,0,0.2);
 }
+
+.call-to-action-margin 
+{
+  line-height: 1.5 !important;
+}
+
 /***************************
 2. Home Page Mobile
 ****************************/
@@ -714,4 +725,94 @@
 .contact_form_margin 
 {
   margin-top: 5% !important;
+}
+
+/* .contact_info_marg 
+{
+  margin: 0 auto;
+} */
+
+
+/***************************
+4. Contact Page Mobile
+****************************/
+
+@media only screen and (max-width: 320px) 
+{
+
+  .direct_line_num {
+    font-size: 17px;
+  }
+
+}
+
+
+/***************************
+5. About Us Page
+****************************/
+
+.svg_aboutus 
+{
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  /* margin-bottom: -258px; */
+}
+
+.aboutus-title 
+{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+/***************************
+5. About Us Page Mobile
+****************************/
+
+/* Galaxy */
+@media screen and (max-width: 360px) and (min-width: 321px) 
+{
+  .svg_aboutus 
+  {
+    height: 340px;
+    width: 340px;
+    margin: 0 auto;
+    /* margin-bottom: -95px; */
+  }
+}
+
+/* Pixel */
+@media screen and (max-width: 414px) and (min-width: 376px) 
+{
+  .svg_aboutus 
+  {
+    height: 340px;
+    width: 340px;
+    margin: 0 auto;
+    /* margin-bottom: -95px; */
+  }
+}
+
+/* Iphone 5 */
+@media only screen and (max-width: 320px) 
+{
+  .svg_aboutus 
+  {
+    height: 240px;
+    width: 240px;
+    margin: 0 auto;
+  }
+}
+
+/* Iphone 6/7/8, 6/7/8 Plus & X */
+@media screen and (max-width: 375px) and (min-width: 361px) 
+{
+  .svg_aboutus 
+  {
+    height: 210px;
+    width: 210px;
+    margin: 0 auto;
+  }
 }
