@@ -30,6 +30,6 @@ class SubscribeMail extends Mailable
      */
     public function build()
     {
-        return $this->from('codeblock.life@gmail.com')->subject('New Newsletter Subscription')->view('mailable/dynamic_subscription_template')->with('data', $this->data);
+        return $this->from('info@genometechnologies.org')->subject('New Newsletter Subscription')->view('mailable/dynamic_subscription_template')->with('data', $this->data);
     }
 }

@@ -49,8 +49,8 @@
 											<p class="main-prgraph">Cancer can sometimes appear to “run in families” even if it is not caused by an inherited mutation.</p>
 										</div>
 										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">read more</a></div>
-											<div class="button button_2 button-white trans_200"><a href="#">more about us</a></div>
+											<div class="button button_1 trans_200"><a href="">read more</a></div>
+											{{-- <div class="button button_2 button-white trans_200"><a href="#">more about us</a></div> --}}
 										</div>
 									</div>
 								</div>
@@ -76,8 +76,8 @@
 												appropriate.</p>
 										</div>
 										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">read more</a></div>
-											<div class="button button_2 button-white trans_200"><a href="#">more about us</a></div>
+											<div class="button button_1 trans_200"><a href="">read more</a></div>
+											{{-- <div class="button button_2 button-white trans_200"><a href="#">more about us</a></div> --}}
 										</div>
 									</div>
 								</div>
@@ -100,8 +100,8 @@
 											<p class="main-prgraph">Get to the root of your patients’ allergy-like symptoms with Allergen-Specific IgE Blood Testing.</p>
 										</div>
 										<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">read more</a></div>
-											<div class="button button_2 button-white trans_200"><a href="#">more about us</a></div>
+											<div class="button button_1 trans_200"><a href="">read more</a></div>
+											{{-- <div class="button button_2 button-white trans_200"><a href="#">more about us</a></div> --}}
 										</div>
 									</div>
 								</div>
@@ -298,7 +298,7 @@
 							<div class="cta_title">Give us a call today!</div>
 							<div class="cta_text">We'd love to discuss how we can help you.</div>
 						</div>
-						<div class="cta_phone ml-lg-auto">+34 586 778 8892</div>
+						<div class="cta_phone ml-lg-auto">315 - 720 - 8875</div>
 					</div>
 				</div>
 			</div>

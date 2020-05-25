@@ -43,7 +43,7 @@
 							<div class="footer_title">Our Locations</div>
 							<ul class="locations_list">
 								<li>
-									<div class="location_title">New York</div>
+									<div class="location_title">We Service All 50 States</div>
 								</li>
 							</ul>
 						</div>

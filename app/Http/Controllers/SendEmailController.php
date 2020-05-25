@@ -26,7 +26,7 @@ class SendEmailController extends Controller
             'message_contact'   => $request->message_contact
         );
 
-        Mail::to('codeblock.life@gmail.com')->send(new SendMail($data));
+        Mail::to('info@genometechnologies.org')->send(new SendMail($data));
         return back()->with('success', 'Thank you for contacting us we will get back to you as soon as possible!');
     }
 }

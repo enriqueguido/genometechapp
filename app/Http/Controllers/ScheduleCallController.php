@@ -28,7 +28,7 @@ class ScheduleCallController extends Controller
             'date_index'        => $request->date_index
         );
 
-        Mail::to('codeblock.life@gmail.com')->send(new ScheduleCallMail($data));
+        Mail::to('info@genometechnologies.org')->send(new ScheduleCallMail($data));
         return back()->with('success', 'Thank you! We look forward to speaking with you');
     }
 }
